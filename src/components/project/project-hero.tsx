@@ -26,7 +26,7 @@ export function ProjectHero({
   status,
 }: Props) {
   return (
-    <section className="relative h-[88svh] min-h-[600px] w-full overflow-hidden">
+    <section className="relative h-[78svh] min-h-[480px] md:h-[88svh] md:min-h-[600px] w-full overflow-hidden">
       <Image
         src={hero}
         alt={name}

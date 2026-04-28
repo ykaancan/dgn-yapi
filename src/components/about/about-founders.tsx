@@ -27,8 +27,8 @@ export function AboutFounders({ dict }: { dict: Dictionary }) {
               transition={{ duration: 0.7, delay: idx * 0.1 }}
               className="group rounded-xl border border-white/5 hover:border-bronze/40 transition-colors overflow-hidden"
             >
-              <div className="aspect-[4/5] bg-gradient-to-br from-bronze/15 via-bg-soft to-bg flex items-center justify-center">
-                <span className="font-display text-7xl md:text-8xl text-bronze/60 group-hover:text-bronze/80 transition-colors">
+              <div className="aspect-[16/9] md:aspect-[4/5] bg-gradient-to-br from-bronze/15 via-bg-soft to-bg flex items-center justify-center">
+                <span className="font-display text-6xl md:text-8xl text-bronze/60 group-hover:text-bronze/80 transition-colors">
                   {person.name
                     .split(" ")
                     .map((p) => p[0])

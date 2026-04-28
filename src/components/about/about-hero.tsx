@@ -6,7 +6,7 @@ import type { Dictionary } from "@/lib/i18n";
 
 export function AboutHero({ dict }: { dict: Dictionary }) {
   return (
-    <section className="relative pt-32 md:pt-40 pb-20 md:pb-28 overflow-hidden">
+    <section className="relative pt-28 md:pt-40 pb-16 md:pb-28 overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <Image
           src="/projects/dogan-yasam-evleri/santiye/photo-1.jpg"
