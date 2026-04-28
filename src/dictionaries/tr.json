@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "DGN Yapı — İzmir'de prestijli yaşam projeleri",
+    "description": "DGN Yapı, İzmir'de güven, kalite ve mimari değerle inşa edilen prestijli yaşam projeleri sunar."
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Kurumsal",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "lang": "EN"
+  },
+  "hero": {
+    "eyebrow": "DGN YAPI",
+    "title": "Yaşamın içinde, prestijli bir yapı.",
+    "subtitle": "İzmir'in yükselen değeri Karabağlar'da, mimari özen ve mühendislik kalitesiyle yükselen DGN Yapı projeleri.",
+    "cta_primary": "Projeleri Keşfet",
+    "cta_secondary": "İletişime Geç"
+  },
+  "intro": {
+    "eyebrow": "BİZ KİMİZ",
+    "title": "Sadece bina değil, kalıcı bir miras inşa ediyoruz.",
+    "body": "DGN Yapı, üç kuşaktan gelen inşaat tecrübesini modern mühendislik anlayışıyla harmanlayarak İzmir'de prestijli yaşam alanları üretiyor. Her projede aynı titizlik: deprem güvenliği, malzeme kalitesi, mimari değer ve zamanında teslim.",
+    "stats": {
+      "projects": "Aktif Proje",
+      "units": "Daire Üretimi",
+      "experience": "Yıllık Tecrübe",
+      "delivery": "Zamanında Teslim"
+    }
+  },
+  "featured": {
+    "eyebrow": "ÖNE ÇIKAN PROJE",
+    "title": "Doğan Yaşam Evleri",
+    "location": "Karabağlar / İzmir",
+    "body": "Şehrin yeni prestij odağında, 1+1, 2+1 ve 3+1 lüks daire seçenekleri ile hayatın merkezine yakışır bir proje. İki yüksek blok, sosyal alanlar ve dükkanlarıyla yaşamın tüm ihtiyaçlarını tek noktada buluşturuyor.",
+    "cta": "Projeyi İncele",
+    "status": "Devam Eden Proje"
+  },
+  "projects": {
+    "eyebrow": "PROJELERİMİZ",
+    "title": "Şu an sahada olduğumuz projeler.",
+    "viewAll": "Tüm Projeler",
+    "viewProject": "Projeyi İncele",
+    "status": {
+      "active": "Devam Eden",
+      "completed": "Tamamlanan",
+      "upcoming": "Yakında"
+    },
+    "list": {
+      "doganYasam": {
+        "name": "Doğan Yaşam Evleri",
+        "location": "Karabağlar / İzmir",
+        "tagline": "Yaşamın içinde prestijli bir proje"
+      },
+      "camlik": {
+        "name": "Çamlık Projesi",
+        "location": "İzmir",
+        "tagline": "Doğa ile iç içe modern yaşam"
+      },
+      "gunaltay": {
+        "name": "Günaltay Projesi",
+        "location": "İzmir",
+        "tagline": "Şehrin kalbinde yeni bir başlangıç"
+      }
+    }
+  },
+  "pillars": {
+    "eyebrow": "DGN FARKI",
+    "title": "Neden DGN Yapı?",
+    "items": {
+      "safety": {
+        "title": "Deprem Güvenliği",
+        "body": "En güncel yönetmeliklere uygun, yüksek dayanımlı taşıyıcı sistemler ve sertifikalı malzemelerle inşa ediyoruz."
+      },
+      "materials": {
+        "title": "Malzeme Kalitesi",
+        "body": "Markalı, sertifikalı ve dayanıklı malzemeler kullanır, her detayda kompromisuz kaliteden taviz vermeyiz."
+      },
+      "architecture": {
+        "title": "Mimari Değer",
+        "body": "Profesyonel mimarlık ofisleriyle çalışır, yaşam kalitesini ön plana alan tasarımlar üretiriz."
+      },
+      "delivery": {
+        "title": "Zamanında Teslim",
+        "body": "Söz verdiğimiz takvime sadık kalır, projelerimizi her zaman zamanında ve sözleşmeye uygun teslim ederiz."
+      }
+    }
+  },
+  "ctaBanner": {
+    "title": "Hayalindeki yaşam alanını birlikte kuralım.",
+    "body": "Satış ofisimizi ziyaret edin, projeyi yerinde inceleyin. Ön talep bırakanlara özel lansman fiyatları için bizi arayın.",
+    "cta": "Bizi Arayın"
+  },
+  "about": {
+    "eyebrow": "KURUMSAL",
+    "title": "Üç kuşaktır aynı imzayla yapı üretiyoruz.",
+    "lead": "DGN Yapı, İzmir'de prestijli yaşam projelerinin altına imza atan, üç kuşaklık inşaat geleneğini modern mühendislik anlayışıyla buluşturan bir aile şirketidir.",
+    "story": {
+      "eyebrow": "HİKAYEMİZ",
+      "title": "Bir ailenin, yapıya verdiği sözden doğdu.",
+      "p1": "DGN Yapı, kurucularının onlarca yıllık inşaat tecrübesini tek bir çatı altında topladığı bir aile şirketidir. Her projede, ailemize ait olduğu kadar İzmir'in geleceğine de katkı sağlayacak yapıların altına imza atmayı ilke ediniyoruz.",
+      "p2": "Bizim için yapı, sadece beton ve çelikten ibaret değildir. Bir aile için yuva, bir mahalle için karakter, bir şehir için kalıcı bir mirastır. Bu yüzden her detayı, sahibi biz olacakmışız gibi düşünür ve uygularız."
+    },
+    "values": {
+      "eyebrow": "DEĞERLERİMİZ",
+      "title": "Söz verdiğimizi yaparız, yaptığımızın arkasında dururuz.",
+      "items": {
+        "trust": {
+          "title": "Güven",
+          "body": "Sözleşme bizim için bir başlangıçtır. Söz verdiğimiz tarihte, söz verdiğimiz nitelikte teslim ederiz."
+        },
+        "quality": {
+          "title": "Kalite",
+          "body": "Markalı ve sertifikalı malzeme. Profesyonel mimarlık ofisleri. Mühendislik üzerinden taviz vermeyiz."
+        },
+        "transparency": {
+          "title": "Şeffaflık",
+          "body": "Müşterilerimize her aşamada açık iletişim. Şantiyeden teslim anına kadar süreci paylaşırız."
+        },
+        "vision": {
+          "title": "Vizyon",
+          "body": "Bugünün ihtiyacına değil, yarının yaşam tarzına göre tasarlarız. Yapılarımız uzun ömürlüdür."
+        }
+      }
+    },
+    "founders": {
+      "eyebrow": "EKİBİMİZ",
+      "title": "Tanışın, DGN Yapı'nın kurucu ortakları.",
+      "people": [
+        {
+          "name": "Sedat Akbaş",
+          "role": "Kurucu Ortak",
+          "bio": "Onlarca tamamlanmış proje tecrübesiyle DGN Yapı'nın inşaat ve şantiye süreçlerinin başında. (placeholder)",
+          "phone": "+90 532 629 40 35"
+        },
+        {
+          "name": "Eyyüp Doğan",
+          "role": "Kurucu Ortak",
+          "bio": "Yatırım, planlama ve müşteri ilişkilerinden sorumlu. Şirketin kurumsal kimliğine yön veriyor. (placeholder)",
+          "phone": "+90 532 277 06 09"
+        },
+        {
+          "name": "Akın Kocaman",
+          "role": "Kurucu Ortak",
+          "bio": "Operasyon ve tedarik zincirini yönetiyor. Malzeme kalitesi ve şantiye disiplininden sorumlu. (placeholder)",
+          "phone": "+90 541 268 22 51"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "SÜRECİMİZ",
+      "title": "Bir DGN Yapı projesi nasıl ortaya çıkar?",
+      "steps": [
+        {
+          "title": "01 — Arsa & Konsept",
+          "body": "Lokasyonun karakterini, ihtiyaçlarını ve potansiyelini analiz ederiz. Doğru projeyi doğru arsada kurguluyoruz."
+        },
+        {
+          "title": "02 — Mimari & Mühendislik",
+          "body": "Profesyonel mimari ofislerle çalışır, deprem güvenliği ve yaşam kalitesini ön plana alan tasarımlar üretiriz."
+        },
+        {
+          "title": "03 — İnşaat",
+          "body": "Markalı malzeme ve sertifikalı taşeronlarla, her aşaması düzenli denetlenen şeffaf bir şantiye yönetimi."
+        },
+        {
+          "title": "04 — Teslim & Sonrası",
+          "body": "Anahtar teslimi sonrası teknik destek ve garanti süreçleriyle yanınızda olmaya devam ederiz."
+        }
+      ]
+    }
+  },
+  "iletisim": {
+    "lead": "Sorularınız, ön talepleriniz veya satış ofisimizi ziyaret etmek için bize ulaşabilirsiniz. En kısa sürede sizi geri arıyoruz.",
+    "officeTitle": "Satış Ofisi",
+    "hoursTitle": "Çalışma Saatleri",
+    "hours": "Pazartesi – Cumartesi\n09:00 – 19:00",
+    "directions": "Yol Tarifi Al"
+  },
+  "footer": {
+    "tagline": "Yaşamın içinde prestijli yapılar.",
+    "address": "Esenlik Mah. 9035 Sok. No: 2/A\nKarabağlar / İzmir",
+    "phone": "+90 532 629 40 35",
+    "email": "bilgi@dgnyapi.tr",
+    "rights": "Tüm hakları saklıdır.",
+    "nav": "Menü",
+    "contact": "İletişim",
+    "social": "Takip Edin"
+  },
+  "project": {
+    "back": "Tüm Projeler",
+    "overview": "Proje Hakkında",
+    "facts": "Proje Künyesi",
+    "renders": "3D Görseller",
+    "floorplans": "Daire Tipleri",
+    "santiye": "Şantiye",
+    "location": "Konum",
+    "contactCta": "Satış Ofisi ile İletişime Geç",
+    "brochure": "Broşürü İndir",
+    "factLabels": {
+      "location": "Lokasyon",
+      "status": "Durum",
+      "delivery": "Teslim Tarihi",
+      "blocks": "Blok Sayısı",
+      "units": "Daire Sayısı",
+      "types": "Daire Tipleri",
+      "area": "Toplam Alan"
+    },
+    "doganYasam": {
+      "tagline": "Yaşamın içinde prestijli bir proje",
+      "overview": "Doğan Yaşam Evleri, Karabağlar'ın yükselen değeri Esenlik bölgesinde, iki yüksek blok ve sosyal yaşam alanlarıyla birlikte yükseliyor. 1+1, 2+1 ve 3+1 daire seçenekleri, blok zemininde dükkanlar ve modern bir peyzaj düzeniyle proje, şehir hayatının kalbinde nefes alabilen bir yaşam vadediyor.",
+      "longBody": "Mimarisi Mipa Mimarlık tarafından kurgulanan proje, modern hatları İzmir'in karakteriyle harmanlıyor. Açık ve kapalı sosyal alanlar, geniş yeşil bahçe, kapalı otopark ve 7/24 güvenlik standart. Her daire, doğal aydınlatma ve yatay-dikey mimari süreklilik düşünülerek planlandı.",
+      "delivery": "2026 Q4 (placeholder)",
+      "blocks": "2 Blok",
+      "units": "120 Daire (placeholder)",
+      "types": "1+1, 2+1, 3+1",
+      "area": "8.500 m² (placeholder)"
+    },
+    "camlik": {
+      "tagline": "Doğa ile iç içe modern yaşam",
+      "overview": "Çamlık projesi, doğa ile şehrin kesiştiği noktada, modern yaşamın ihtiyaçlarına cevap veren bir konsept sunar. Detaylı bilgiler için satış ofisimizi arayın.",
+      "delivery": "2026 (placeholder)",
+      "blocks": "Placeholder",
+      "units": "Placeholder",
+      "types": "Placeholder"
+    },
+    "gunaltay": {
+      "tagline": "Şehrin kalbinde yeni bir başlangıç",
+      "overview": "Günaltay projesi, kentin canlı dokusuna entegre edilmiş yaşam alanlarıyla yeni bir başlangıç vadediyor. Detaylar için satış ofisimizi arayın.",
+      "delivery": "Placeholder",
+      "blocks": "Placeholder",
+      "units": "Placeholder",
+      "types": "Placeholder"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "form": {
+      "name": "Ad Soyad",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "submitting": "Gönderiliyor…",
+      "success": "Mesajınız iletildi. En kısa sürede sizi arayacağız.",
+      "error": "Bir sorun oluştu. Lütfen tekrar deneyin."
+    }
+  }
+}

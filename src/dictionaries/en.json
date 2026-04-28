@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "title": "DGN Yapı — Prestigious living projects in İzmir",
+    "description": "DGN Yapı builds prestigious living spaces in İzmir, grounded in trust, quality, and architectural value."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "lang": "TR"
+  },
+  "hero": {
+    "eyebrow": "DGN YAPI",
+    "title": "A prestigious build, at the center of life.",
+    "subtitle": "DGN Yapı projects rise in Karabağlar, İzmir — built with architectural care and engineering quality.",
+    "cta_primary": "Explore Projects",
+    "cta_secondary": "Get in Touch"
+  },
+  "intro": {
+    "eyebrow": "WHO WE ARE",
+    "title": "We don't just build buildings — we build a lasting legacy.",
+    "body": "DGN Yapı combines three generations of construction experience with modern engineering to create prestigious living spaces in İzmir. Every project carries the same care: seismic safety, material quality, architectural value, and on-time delivery.",
+    "stats": {
+      "projects": "Active Projects",
+      "units": "Units Built",
+      "experience": "Years of Experience",
+      "delivery": "On-Time Delivery"
+    }
+  },
+  "featured": {
+    "eyebrow": "FEATURED PROJECT",
+    "title": "Doğan Yaşam Evleri",
+    "location": "Karabağlar / İzmir",
+    "body": "At the city's new prestige hub, with 1+1, 2+1, and 3+1 luxury apartment options. Two high-rise blocks, social spaces, and ground-floor shops bring all the needs of life together in one location.",
+    "cta": "View Project",
+    "status": "Under Construction"
+  },
+  "projects": {
+    "eyebrow": "OUR PROJECTS",
+    "title": "Projects we are currently building.",
+    "viewAll": "All Projects",
+    "viewProject": "View Project",
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "upcoming": "Upcoming"
+    },
+    "list": {
+      "doganYasam": {
+        "name": "Doğan Yaşam Evleri",
+        "location": "Karabağlar / İzmir",
+        "tagline": "A prestigious project at the heart of life"
+      },
+      "camlik": {
+        "name": "Çamlık Project",
+        "location": "İzmir",
+        "tagline": "Modern living in touch with nature"
+      },
+      "gunaltay": {
+        "name": "Günaltay Project",
+        "location": "İzmir",
+        "tagline": "A new beginning in the heart of the city"
+      }
+    }
+  },
+  "pillars": {
+    "eyebrow": "THE DGN DIFFERENCE",
+    "title": "Why DGN Yapı?",
+    "items": {
+      "safety": {
+        "title": "Seismic Safety",
+        "body": "Built to the latest regulations with high-strength structural systems and certified materials."
+      },
+      "materials": {
+        "title": "Material Quality",
+        "body": "We use branded, certified, durable materials and never compromise on detail."
+      },
+      "architecture": {
+        "title": "Architectural Value",
+        "body": "Designed in collaboration with professional architecture studios that prioritize quality of life."
+      },
+      "delivery": {
+        "title": "On-Time Delivery",
+        "body": "We honor our commitments — every project is delivered on schedule and per contract."
+      }
+    }
+  },
+  "ctaBanner": {
+    "title": "Let's build the home you dream of, together.",
+    "body": "Visit our sales office and see the project in person. Call us to lock in special launch pricing for early reservations.",
+    "cta": "Call Us"
+  },
+  "about": {
+    "eyebrow": "ABOUT US",
+    "title": "Three generations, one signature on every build.",
+    "lead": "DGN Yapı is a family business behind some of İzmir's most prestigious living projects, blending three generations of construction tradition with modern engineering.",
+    "story": {
+      "eyebrow": "OUR STORY",
+      "title": "Born from a family's word, given to the craft.",
+      "p1": "DGN Yapı brings together decades of construction experience under a single roof. With every project, we sign our name to buildings that belong as much to our family as they do to İzmir's future.",
+      "p2": "For us, a building is more than concrete and steel. It is a home for a family, a character for a neighborhood, and a lasting legacy for a city. That's why we treat every detail as if we were the ones moving in."
+    },
+    "values": {
+      "eyebrow": "OUR VALUES",
+      "title": "We honor what we promise — and stand behind what we build.",
+      "items": {
+        "trust": {
+          "title": "Trust",
+          "body": "A contract is a starting point, not a finish line. We deliver on time, to the standard we promised."
+        },
+        "quality": {
+          "title": "Quality",
+          "body": "Branded, certified materials. Professional architecture studios. We never compromise on engineering."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "body": "Open communication at every stage. From the construction site to the delivery date, we keep you in the loop."
+        },
+        "vision": {
+          "title": "Vision",
+          "body": "We design for tomorrow's lifestyle, not today's checklist. Our buildings are made to last."
+        }
+      }
+    },
+    "founders": {
+      "eyebrow": "OUR TEAM",
+      "title": "Meet the founding partners of DGN Yapı.",
+      "people": [
+        {
+          "name": "Sedat Akbaş",
+          "role": "Founding Partner",
+          "bio": "Leads construction and on-site operations, drawing on dozens of completed projects. (placeholder)",
+          "phone": "+90 532 629 40 35"
+        },
+        {
+          "name": "Eyyüp Doğan",
+          "role": "Founding Partner",
+          "bio": "Heads investment, planning, and client relations. Shapes the corporate identity of the firm. (placeholder)",
+          "phone": "+90 532 277 06 09"
+        },
+        {
+          "name": "Akın Kocaman",
+          "role": "Founding Partner",
+          "bio": "Runs operations and supply chain. Responsible for material quality and on-site discipline. (placeholder)",
+          "phone": "+90 541 268 22 51"
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "OUR PROCESS",
+      "title": "How a DGN Yapı project comes to life.",
+      "steps": [
+        {
+          "title": "01 — Land & Concept",
+          "body": "We analyze the character, needs, and potential of every location. The right project on the right plot."
+        },
+        {
+          "title": "02 — Architecture & Engineering",
+          "body": "We work with professional architecture studios to produce designs that prioritize seismic safety and quality of life."
+        },
+        {
+          "title": "03 — Construction",
+          "body": "Branded materials, certified subcontractors, and a transparent site under regular inspection at every stage."
+        },
+        {
+          "title": "04 — Delivery & Beyond",
+          "body": "After handover we stay with you through technical support and warranty — the relationship doesn't end at the door."
+        }
+      ]
+    }
+  },
+  "iletisim": {
+    "lead": "Reach out for questions, early reservations, or to visit our sales office in person. We'll get back to you shortly.",
+    "officeTitle": "Sales Office",
+    "hoursTitle": "Office Hours",
+    "hours": "Monday – Saturday\n09:00 – 19:00",
+    "directions": "Get Directions"
+  },
+  "footer": {
+    "tagline": "Prestigious buildings at the heart of life.",
+    "address": "Esenlik Mah. 9035 Sok. No: 2/A\nKarabağlar / İzmir",
+    "phone": "+90 532 629 40 35",
+    "email": "bilgi@dgnyapi.tr",
+    "rights": "All rights reserved.",
+    "nav": "Menu",
+    "contact": "Contact",
+    "social": "Follow Us"
+  },
+  "project": {
+    "back": "All Projects",
+    "overview": "About the Project",
+    "facts": "Project Details",
+    "renders": "3D Renders",
+    "floorplans": "Apartment Types",
+    "santiye": "Construction Site",
+    "location": "Location",
+    "contactCta": "Contact Sales Office",
+    "brochure": "Download Brochure",
+    "factLabels": {
+      "location": "Location",
+      "status": "Status",
+      "delivery": "Delivery",
+      "blocks": "Blocks",
+      "units": "Units",
+      "types": "Apartment Types",
+      "area": "Total Area"
+    },
+    "doganYasam": {
+      "tagline": "A prestigious project at the heart of life",
+      "overview": "Doğan Yaşam Evleri rises in the Esenlik area of Karabağlar with two high-rise blocks and social living spaces. 1+1, 2+1, and 3+1 apartment options, ground-floor shops, and a modern landscape design promise a life that breathes at the heart of the city.",
+      "longBody": "Designed by Mipa Mimarlık, the project blends modern lines with İzmir's character. Open and covered social areas, a large green garden, indoor parking, and 24/7 security come standard. Each apartment is planned for natural light and architectural continuity.",
+      "delivery": "2026 Q4 (placeholder)",
+      "blocks": "2 Blocks",
+      "units": "120 Units (placeholder)",
+      "types": "1+1, 2+1, 3+1",
+      "area": "8,500 m² (placeholder)"
+    },
+    "camlik": {
+      "tagline": "Modern living in touch with nature",
+      "overview": "The Çamlık project sits where nature meets the city, offering a concept built for the needs of modern life. Call our sales office for details.",
+      "delivery": "2026 (placeholder)",
+      "blocks": "Placeholder",
+      "units": "Placeholder",
+      "types": "Placeholder"
+    },
+    "gunaltay": {
+      "tagline": "A new beginning in the heart of the city",
+      "overview": "The Günaltay project promises a fresh start, integrated into the city's vibrant fabric. Call our sales office for details.",
+      "delivery": "Placeholder",
+      "blocks": "Placeholder",
+      "units": "Placeholder",
+      "types": "Placeholder"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Your message",
+      "submit": "Send",
+      "submitting": "Sending…",
+      "success": "Your message has been sent. We'll be in touch shortly.",
+      "error": "Something went wrong. Please try again."
+    }
+  }
+}
