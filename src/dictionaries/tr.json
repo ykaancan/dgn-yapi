@@ -41,6 +41,9 @@
     "title": "Şu an sahada olduğumuz projeler.",
     "viewAll": "Tüm Projeler",
     "viewProject": "Projeyi İncele",
+    "filterAll": "Tümü",
+    "countLabel": "proje",
+    "noResults": "Bu durumda proje bulunamadı.",
     "status": {
       "active": "Devam Eden",
       "completed": "Tamamlanan",
@@ -168,6 +171,22 @@
           "body": "Anahtar teslimi sonrası teknik destek ve garanti süreçleriyle yanınızda olmaya devam ederiz."
         }
       ]
+    }
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "Aradığınız sayfa bulunamadı.",
+      "body": "Sayfa taşınmış, kaldırılmış veya hiç var olmamış olabilir. Anasayfaya dönüp projelerimizi inceleyebilirsiniz.",
+      "cta": "Anasayfaya Dön",
+      "ctaSecondary": "Projelere Git"
+    },
+    "general": {
+      "code": "500",
+      "title": "Bir aksaklık oluştu.",
+      "body": "Sayfayı yüklerken beklenmedik bir hata aldık. Tekrar denemek ister misiniz?",
+      "cta": "Tekrar Dene",
+      "ctaSecondary": "Anasayfaya Dön"
     }
   },
   "iletisim": {

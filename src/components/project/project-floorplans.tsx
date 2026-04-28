@@ -84,8 +84,9 @@ export function ProjectFloorplans({ eyebrow, plans }: Props) {
                       src={src}
                       alt=""
                       fill
-                      sizes="80px"
+                      sizes="(min-width: 1024px) 100px, (min-width: 768px) 110px, 80px"
                       className="object-cover"
+                      loading="lazy"
                     />
                   </button>
                 ))}

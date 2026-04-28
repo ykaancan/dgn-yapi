@@ -41,6 +41,9 @@
     "title": "Projects we are currently building.",
     "viewAll": "All Projects",
     "viewProject": "View Project",
+    "filterAll": "All",
+    "countLabel": "projects",
+    "noResults": "No projects in this status yet.",
     "status": {
       "active": "Active",
       "completed": "Completed",
@@ -168,6 +171,22 @@
           "body": "After handover we stay with you through technical support and warranty — the relationship doesn't end at the door."
         }
       ]
+    }
+  },
+  "errors": {
+    "notFound": {
+      "code": "404",
+      "title": "We couldn't find that page.",
+      "body": "It may have moved, been removed, or never existed. Head back home and explore our projects instead.",
+      "cta": "Back to Home",
+      "ctaSecondary": "View Projects"
+    },
+    "general": {
+      "code": "500",
+      "title": "Something went wrong.",
+      "body": "We hit an unexpected error rendering this page. Want to give it another try?",
+      "cta": "Try Again",
+      "ctaSecondary": "Back to Home"
     }
   },
   "iletisim": {
