@@ -194,7 +194,11 @@
     "officeTitle": "Satış Ofisi",
     "hoursTitle": "Çalışma Saatleri",
     "hours": "Pazartesi – Cumartesi\n09:00 – 19:00",
-    "directions": "Yol Tarifi Al"
+    "directions": "Yol Tarifi Al",
+    "contactsTitle": "İletişim Kişileri",
+    "contacts": [
+      { "name": "Sümeyye Sarıkaya", "role": "Mimar", "phone": "+90 541 596 88 28" }
+    ]
   },
   "footer": {
     "tagline": "Yaşamın içinde prestijli yapılar.",

@@ -94,6 +94,27 @@ export default async function ContactPage({
                 </p>
               </div>
             </div>
+
+            <div className="rounded-xl border border-white/5 bg-bg-soft p-7 space-y-5">
+              <p className="text-xs tracking-[0.2em] text-bronze">
+                {dict.iletisim.contactsTitle.toUpperCase()}
+              </p>
+              {dict.iletisim.contacts.map((contact) => (
+                <a
+                  key={contact.phone}
+                  href={`tel:${contact.phone.replace(/\s/g, "")}`}
+                  className="flex gap-4 text-fg/85 hover:text-bronze transition-colors"
+                >
+                  <Phone size={20} className="shrink-0 mt-0.5 text-bronze" />
+                  <span className="flex flex-col">
+                    <span>{contact.phone}</span>
+                    <span className="text-xs text-fg-muted mt-0.5">
+                      {contact.name} · {contact.role}
+                    </span>
+                  </span>
+                </a>
+              ))}
+            </div>
           </div>
 
           <div className="lg:col-span-7">

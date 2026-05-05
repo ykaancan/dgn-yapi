@@ -194,7 +194,11 @@
     "officeTitle": "Sales Office",
     "hoursTitle": "Office Hours",
     "hours": "Monday – Saturday\n09:00 – 19:00",
-    "directions": "Get Directions"
+    "directions": "Get Directions",
+    "contactsTitle": "Contacts",
+    "contacts": [
+      { "name": "Sümeyye Sarıkaya", "role": "Architect", "phone": "+90 541 596 88 28" }
+    ]
   },
   "footer": {
     "tagline": "Prestigious buildings at the heart of life.",
