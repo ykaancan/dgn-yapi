@@ -18,11 +18,11 @@ export type Project = {
   featured?: boolean;
 };
 
-const renders = (n: number, prefix: string) =>
-  Array.from({ length: n }, (_, i) => `/projects/dogan-yasam-evleri/renders/${prefix}-${i + 1}.jpg`);
-
 const photos = (basePath: string, count: number) =>
   Array.from({ length: count }, (_, i) => `${basePath}/photo-${i + 1}.jpg`);
+
+const doganRender = (name: string) =>
+  `/projects/dogan-yasam-evleri/renders/${name}.jpg`;
 
 export const projects: Project[] = [
   {
@@ -33,7 +33,20 @@ export const projects: Project[] = [
     cover: "/projects/dogan-yasam-evleri/renders/exterior-day-1.jpg",
     hero: "/projects/dogan-yasam-evleri/renders/exterior-day-2.jpg",
     video: "/video/dogan-yasam-evleri.mp4",
-    renders: [...renders(6, "exterior-day"), ...renders(10, "render")],
+    renders: [
+      doganRender("exterior-day-1"),
+      doganRender("exterior-day-2"),
+      doganRender("render-9"),
+      doganRender("render-10"),
+      doganRender("render-7"),
+      doganRender("render-8"),
+      doganRender("render-1"),
+      doganRender("render-2"),
+      doganRender("render-3"),
+      doganRender("render-4"),
+      doganRender("render-5"),
+      doganRender("render-6"),
+    ],
     floorplans: [
       { type: "1+1", photos: photos("/projects/dogan-yasam-evleri/floorplans/1plus1", 21) },
       { type: "2+1", photos: photos("/projects/dogan-yasam-evleri/floorplans/2plus1", 35) },
@@ -44,7 +57,7 @@ export const projects: Project[] = [
   {
     slug: "camlik",
     dictKey: "camlik",
-    status: "active",
+    status: "completed",
     cover: "/projects/camlik/cover.jpg",
     hero: "/projects/camlik/cover.jpg",
     video: "/video/camlik.mp4",
@@ -53,7 +66,7 @@ export const projects: Project[] = [
   {
     slug: "gunaltay",
     dictKey: "gunaltay",
-    status: "active",
+    status: "completed",
     cover: "/projects/gunaltay/photo-1.jpg",
     hero: "/projects/gunaltay/photo-1.jpg",
     video: "/video/gunaltay.mp4",

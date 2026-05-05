@@ -54,6 +54,18 @@ export default async function ContactPage({
                 <span>{dict.footer.phone}</span>
               </a>
               <a
+                href={`tel:${dict.footer.companyPhone.replace(/\s/g, "")}`}
+                className="flex gap-4 text-fg/85 hover:text-bronze transition-colors"
+              >
+                <Phone size={20} className="shrink-0 mt-0.5 text-bronze" />
+                <span className="flex flex-col">
+                  <span>{dict.footer.companyPhone}</span>
+                  <span className="text-xs text-fg-muted mt-0.5">
+                    {dict.footer.companyPhoneNote}
+                  </span>
+                </span>
+              </a>
+              <a
                 href={`mailto:${dict.footer.email}`}
                 className="flex gap-4 text-fg/85 hover:text-bronze transition-colors"
               >

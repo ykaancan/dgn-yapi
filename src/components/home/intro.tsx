@@ -4,9 +4,7 @@ import { motion } from "framer-motion";
 import type { Dictionary } from "@/lib/i18n";
 
 const stats = [
-  { key: "projects" as const, value: "12+" },
-  { key: "units" as const, value: "850+" },
-  { key: "experience" as const, value: "20+" },
+  { key: "experience" as const, value: "15+" },
   { key: "delivery" as const, value: "%100" },
 ];
 

@@ -32,7 +32,7 @@
     "eyebrow": "FEATURED PROJECT",
     "title": "Doğan Yaşam Evleri",
     "location": "Karabağlar / İzmir",
-    "body": "At the city's new prestige hub, with 1+1, 2+1, and 3+1 luxury apartment options. Two high-rise blocks, social spaces, and ground-floor shops bring all the needs of life together in one location.",
+    "body": "At the city's new prestige hub, with 1+1, 2+1, and 3+1 luxury apartment options. Three blocks, social spaces, and ground-floor shops bring all the needs of life together in one location.",
     "cta": "View Project",
     "status": "Under Construction"
   },
@@ -56,7 +56,7 @@
         "tagline": "A prestigious project at the heart of life"
       },
       "camlik": {
-        "name": "Çamlık Project",
+        "name": "Central Çamlık",
         "location": "İzmir",
         "tagline": "Modern living in touch with nature"
       },
@@ -81,7 +81,7 @@
       },
       "architecture": {
         "title": "Architectural Value",
-        "body": "Designed in collaboration with professional architecture studios that prioritize quality of life."
+        "body": "Designs led by our own in-house team of architects and engineers, prioritizing quality of life in every detail."
       },
       "delivery": {
         "title": "On-Time Delivery",
@@ -114,7 +114,7 @@
         },
         "quality": {
           "title": "Quality",
-          "body": "Branded, certified materials. Professional architecture studios. We never compromise on engineering."
+          "body": "Branded, certified materials. An in-house team of architects and engineers. We never compromise on engineering."
         },
         "transparency": {
           "title": "Transparency",
@@ -160,7 +160,7 @@
         },
         {
           "title": "02 — Architecture & Engineering",
-          "body": "We work with professional architecture studios to produce designs that prioritize seismic safety and quality of life."
+          "body": "Our in-house team of architects and engineers produces designs that prioritize seismic safety and quality of life."
         },
         {
           "title": "03 — Construction",
@@ -200,6 +200,8 @@
     "tagline": "Prestigious buildings at the heart of life.",
     "address": "Esenlik Mah. 9035 Sok. No: 2/A\nKarabağlar / İzmir",
     "phone": "+90 532 629 40 35",
+    "companyPhone": "+90 232 430 23 46",
+    "companyPhoneNote": "On a keypad phone the last three digits (346) spell DGN.",
     "email": "bilgi@dgnyapi.tr",
     "rights": "All rights reserved.",
     "nav": "Menu",
@@ -219,37 +221,30 @@
     "factLabels": {
       "location": "Location",
       "status": "Status",
-      "delivery": "Delivery",
       "blocks": "Blocks",
       "units": "Units",
       "types": "Apartment Types",
-      "area": "Total Area"
+      "commercial": "Commercial"
     },
     "doganYasam": {
       "tagline": "A prestigious project at the heart of life",
-      "overview": "Doğan Yaşam Evleri rises in the Esenlik area of Karabağlar with two high-rise blocks and social living spaces. 1+1, 2+1, and 3+1 apartment options, ground-floor shops, and a modern landscape design promise a life that breathes at the heart of the city.",
-      "longBody": "Designed by Mipa Mimarlık, the project blends modern lines with İzmir's character. Open and covered social areas, a large green garden, indoor parking, and 24/7 security come standard. Each apartment is planned for natural light and architectural continuity.",
-      "delivery": "2026 Q4 (placeholder)",
-      "blocks": "2 Blocks",
-      "units": "120 Units (placeholder)",
-      "types": "1+1, 2+1, 3+1",
-      "area": "8,500 m² (placeholder)"
+      "overview": "Doğan Yaşam Evleri rises in the Esenlik area of Karabağlar with three blocks and social living spaces. 1+1, 2+1, and 3+1 apartment options, ground-floor shops, and a modern landscape design promise a life that breathes at the heart of the city.",
+      "longBody": "Blending modern lines with İzmir's character, the project comes with open and covered social areas, a large green garden, indoor parking, and 24/7 security as standard. Each apartment is planned for natural light and architectural continuity.",
+      "blocks": "3 Blocks (A, B, C)",
+      "units": "49 × 3+1, 48 × 2+1, 52 × 1+1",
+      "types": "3+1 (116.70 m²), 2+1 (75 m²), 1+1 (Type 1: 50 m², Type 2: 40 m²)",
+      "commercial": "6 Commercial Units + ATM"
     },
     "camlik": {
       "tagline": "Modern living in touch with nature",
-      "overview": "The Çamlık project sits where nature meets the city, offering a concept built for the needs of modern life. Call our sales office for details.",
-      "delivery": "2026 (placeholder)",
-      "blocks": "Placeholder",
-      "units": "Placeholder",
-      "types": "Placeholder"
+      "overview": "The Central Çamlık project sits where nature meets the city, offering a concept built for the needs of modern life. Call our sales office for details.",
+      "blocks": "Single Block",
+      "units": "39 Apartments",
+      "types": "3+1"
     },
     "gunaltay": {
       "tagline": "A new beginning in the heart of the city",
-      "overview": "The Günaltay project promises a fresh start, integrated into the city's vibrant fabric. Call our sales office for details.",
-      "delivery": "Placeholder",
-      "blocks": "Placeholder",
-      "units": "Placeholder",
-      "types": "Placeholder"
+      "overview": "The Günaltay project delivered a new chapter at the heart of the city — apartments integrated into the city's vibrant fabric. Call our sales office for details."
     }
   },
   "contact": {
