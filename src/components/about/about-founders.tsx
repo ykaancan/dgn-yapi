@@ -17,7 +17,7 @@ export function AboutFounders({ dict }: { dict: Dictionary }) {
           </h2>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {dict.about.founders.people.map((person, idx) => (
             <motion.div
               key={person.name}

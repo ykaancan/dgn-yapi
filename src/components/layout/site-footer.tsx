@@ -92,21 +92,6 @@ export function SiteFooter({ lang, dict }: Props) {
             <Phone size={18} className="shrink-0 text-bronze" />
             {dict.footer.companyPhone}
           </a>
-          {dict.iletisim.contacts.map((contact) => (
-            <a
-              key={contact.phone}
-              href={`tel:${contact.phone.replace(/\s/g, "")}`}
-              className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"
-            >
-              <Phone size={18} className="shrink-0 text-bronze" />
-              <span className="flex flex-col">
-                <span>{contact.phone}</span>
-                <span className="text-xs text-fg-muted">
-                  {contact.name} · {contact.role}
-                </span>
-              </span>
-            </a>
-          ))}
           <a
             href={`mailto:${dict.footer.email}`}
             className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"

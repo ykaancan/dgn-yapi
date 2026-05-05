@@ -128,7 +128,7 @@
     },
     "founders": {
       "eyebrow": "EKİBİMİZ",
-      "title": "Tanışın, DGN Yapı'nın kurucu ortakları.",
+      "title": "Tanışın, DGN Yapı ekibiyle.",
       "people": [
         {
           "name": "Sedat Akbaş",
@@ -147,6 +147,12 @@
           "role": "Kurucu Ortak",
           "bio": "Operasyon ve tedarik zincirini yönetiyor. Malzeme kalitesi ve şantiye disiplininden sorumlu. (placeholder)",
           "phone": "+90 541 268 22 51"
+        },
+        {
+          "name": "Sümeyye Sarıkaya",
+          "role": "Mimar",
+          "bio": "Projelerin mimari tasarımı ve tip planlaması süreçlerini yürütüyor. (placeholder)",
+          "phone": "+90 541 596 88 28"
         }
       ]
     },
@@ -194,11 +200,7 @@
     "officeTitle": "Satış Ofisi",
     "hoursTitle": "Çalışma Saatleri",
     "hours": "Pazartesi – Cumartesi\n09:00 – 19:00",
-    "directions": "Yol Tarifi Al",
-    "contactsTitle": "İletişim Kişileri",
-    "contacts": [
-      { "name": "Sümeyye Sarıkaya", "role": "Mimar", "phone": "+90 541 596 88 28" }
-    ]
+    "directions": "Yol Tarifi Al"
   },
   "footer": {
     "tagline": "Yaşamın içinde prestijli yapılar.",
