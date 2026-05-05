@@ -86,6 +86,13 @@ export function SiteFooter({ lang, dict }: Props) {
             {dict.footer.phone}
           </a>
           <a
+            href={`tel:${dict.footer.companyPhone.replace(/\s/g, "")}`}
+            className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"
+          >
+            <Phone size={18} className="shrink-0 text-bronze" />
+            {dict.footer.companyPhone}
+          </a>
+          <a
             href={`mailto:${dict.footer.email}`}
             className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"
           >

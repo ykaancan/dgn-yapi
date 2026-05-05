@@ -32,7 +32,7 @@
     "eyebrow": "ÖNE ÇIKAN PROJE",
     "title": "Doğan Yaşam Evleri",
     "location": "Karabağlar / İzmir",
-    "body": "Şehrin yeni prestij odağında, 1+1, 2+1 ve 3+1 lüks daire seçenekleri ile hayatın merkezine yakışır bir proje. İki yüksek blok, sosyal alanlar ve dükkanlarıyla yaşamın tüm ihtiyaçlarını tek noktada buluşturuyor.",
+    "body": "Şehrin yeni prestij odağında, 1+1, 2+1 ve 3+1 lüks daire seçenekleri ile hayatın merkezine yakışır bir proje. Üç bloktan oluşan yapı, sosyal alanlar ve dükkanlarıyla yaşamın tüm ihtiyaçlarını tek noktada buluşturuyor.",
     "cta": "Projeyi İncele",
     "status": "Devam Eden Proje"
   },
@@ -56,7 +56,7 @@
         "tagline": "Yaşamın içinde prestijli bir proje"
       },
       "camlik": {
-        "name": "Çamlık Projesi",
+        "name": "Central Çamlık",
         "location": "İzmir",
         "tagline": "Doğa ile iç içe modern yaşam"
       },
@@ -81,7 +81,7 @@
       },
       "architecture": {
         "title": "Mimari Değer",
-        "body": "Profesyonel mimarlık ofisleriyle çalışır, yaşam kalitesini ön plana alan tasarımlar üretiriz."
+        "body": "Kendi bünyemizdeki profesyonel mimar ve mühendis ekibimizle, yaşam kalitesini ön plana alan tasarımlar üretiriz."
       },
       "delivery": {
         "title": "Zamanında Teslim",
@@ -114,7 +114,7 @@
         },
         "quality": {
           "title": "Kalite",
-          "body": "Markalı ve sertifikalı malzeme. Profesyonel mimarlık ofisleri. Mühendislik üzerinden taviz vermeyiz."
+          "body": "Markalı ve sertifikalı malzeme. Kendi bünyemizdeki profesyonel mimar ve mühendis ekibi. Mühendislik üzerinden taviz vermeyiz."
         },
         "transparency": {
           "title": "Şeffaflık",
@@ -160,7 +160,7 @@
         },
         {
           "title": "02 — Mimari & Mühendislik",
-          "body": "Profesyonel mimari ofislerle çalışır, deprem güvenliği ve yaşam kalitesini ön plana alan tasarımlar üretiriz."
+          "body": "Kendi bünyemizdeki mimar ve mühendis ekibimizle, deprem güvenliği ve yaşam kalitesini ön plana alan tasarımlar üretiriz."
         },
         {
           "title": "03 — İnşaat",
@@ -200,6 +200,8 @@
     "tagline": "Yaşamın içinde prestijli yapılar.",
     "address": "Esenlik Mah. 9035 Sok. No: 2/A\nKarabağlar / İzmir",
     "phone": "+90 532 629 40 35",
+    "companyPhone": "+90 232 430 23 46",
+    "companyPhoneNote": "Tuşlu telefonda son 3 hane (346) DGN harflerine denk gelir.",
     "email": "bilgi@dgnyapi.tr",
     "rights": "Tüm hakları saklıdır.",
     "nav": "Menü",
@@ -219,37 +221,30 @@
     "factLabels": {
       "location": "Lokasyon",
       "status": "Durum",
-      "delivery": "Teslim Tarihi",
       "blocks": "Blok Sayısı",
       "units": "Daire Sayısı",
       "types": "Daire Tipleri",
-      "area": "Toplam Alan"
+      "commercial": "Ticari Alan"
     },
     "doganYasam": {
       "tagline": "Yaşamın içinde prestijli bir proje",
-      "overview": "Doğan Yaşam Evleri, Karabağlar'ın yükselen değeri Esenlik bölgesinde, iki yüksek blok ve sosyal yaşam alanlarıyla birlikte yükseliyor. 1+1, 2+1 ve 3+1 daire seçenekleri, blok zemininde dükkanlar ve modern bir peyzaj düzeniyle proje, şehir hayatının kalbinde nefes alabilen bir yaşam vadediyor.",
-      "longBody": "Mimarisi Mipa Mimarlık tarafından kurgulanan proje, modern hatları İzmir'in karakteriyle harmanlıyor. Açık ve kapalı sosyal alanlar, geniş yeşil bahçe, kapalı otopark ve 7/24 güvenlik standart. Her daire, doğal aydınlatma ve yatay-dikey mimari süreklilik düşünülerek planlandı.",
-      "delivery": "2026 Q4 (placeholder)",
-      "blocks": "2 Blok",
-      "units": "120 Daire (placeholder)",
-      "types": "1+1, 2+1, 3+1",
-      "area": "8.500 m² (placeholder)"
+      "overview": "Doğan Yaşam Evleri, Karabağlar'ın yükselen değeri Esenlik bölgesinde, üç blok ve sosyal yaşam alanlarıyla birlikte yükseliyor. 1+1, 2+1 ve 3+1 daire seçenekleri, blok zemininde dükkanlar ve modern bir peyzaj düzeniyle proje, şehir hayatının kalbinde nefes alabilen bir yaşam vadediyor.",
+      "longBody": "Modern hatlarıyla İzmir'in karakterini harmanlayan proje; açık ve kapalı sosyal alanlar, geniş yeşil bahçe, kapalı otopark ve 7/24 güvenlik standartlarıyla tasarlandı. Her daire, doğal aydınlatma ve yatay-dikey mimari süreklilik düşünülerek planlandı.",
+      "blocks": "3 Blok (A, B, C)",
+      "units": "49 × 3+1, 48 × 2+1, 52 × 1+1",
+      "types": "3+1 (116,70 m²), 2+1 (75 m²), 1+1 (Tip 1: 50 m², Tip 2: 40 m²)",
+      "commercial": "6 İşyeri + ATM"
     },
     "camlik": {
       "tagline": "Doğa ile iç içe modern yaşam",
-      "overview": "Çamlık projesi, doğa ile şehrin kesiştiği noktada, modern yaşamın ihtiyaçlarına cevap veren bir konsept sunar. Detaylı bilgiler için satış ofisimizi arayın.",
-      "delivery": "2026 (placeholder)",
-      "blocks": "Placeholder",
-      "units": "Placeholder",
-      "types": "Placeholder"
+      "overview": "Central Çamlık projesi, doğa ile şehrin kesiştiği noktada, modern yaşamın ihtiyaçlarına cevap veren bir konsept sunar. Detaylı bilgiler için satış ofisimizi arayın.",
+      "blocks": "Tek Blok",
+      "units": "39 Daire",
+      "types": "3+1"
     },
     "gunaltay": {
       "tagline": "Şehrin kalbinde yeni bir başlangıç",
-      "overview": "Günaltay projesi, kentin canlı dokusuna entegre edilmiş yaşam alanlarıyla yeni bir başlangıç vadediyor. Detaylar için satış ofisimizi arayın.",
-      "delivery": "Placeholder",
-      "blocks": "Placeholder",
-      "units": "Placeholder",
-      "types": "Placeholder"
+      "overview": "Günaltay projesi, kentin canlı dokusuna entegre edilmiş yaşam alanlarıyla şehrin kalbinde yeni bir başlangıç sundu. Detaylar için satış ofisimizi arayın."
     }
   },
   "contact": {

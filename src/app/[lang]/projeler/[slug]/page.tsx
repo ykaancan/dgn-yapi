@@ -28,20 +28,31 @@ export default async function ProjectPage({
   const meta = dict.projects.list[project.dictKey];
   const detail = dict.project[project.dictKey];
 
-  const facts: { label: string; value: string }[] = [
-    { label: dict.project.factLabels.location, value: meta.location },
-    {
-      label: dict.project.factLabels.status,
-      value: dict.projects.status[project.status],
-    },
-    { label: dict.project.factLabels.delivery, value: detail.delivery },
-    { label: dict.project.factLabels.blocks, value: detail.blocks },
-    { label: dict.project.factLabels.units, value: detail.units },
-    { label: dict.project.factLabels.types, value: detail.types },
-  ];
-
-  if ("area" in detail && detail.area) {
-    facts.push({ label: dict.project.factLabels.area, value: detail.area });
+  const hasKunye = "blocks" in detail || "units" in detail || "types" in detail;
+  const facts: { label: string; value: string }[] = [];
+  if (hasKunye) {
+    facts.push(
+      { label: dict.project.factLabels.location, value: meta.location },
+      {
+        label: dict.project.factLabels.status,
+        value: dict.projects.status[project.status],
+      },
+    );
+    if ("blocks" in detail && detail.blocks) {
+      facts.push({ label: dict.project.factLabels.blocks, value: detail.blocks });
+    }
+    if ("units" in detail && detail.units) {
+      facts.push({ label: dict.project.factLabels.units, value: detail.units });
+    }
+    if ("types" in detail && detail.types) {
+      facts.push({ label: dict.project.factLabels.types, value: detail.types });
+    }
+    if ("commercial" in detail && detail.commercial) {
+      facts.push({
+        label: dict.project.factLabels.commercial,
+        value: detail.commercial,
+      });
+    }
   }
 
   return (
