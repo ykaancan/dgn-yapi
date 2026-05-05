@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import type { FloorPlan } from "@/content/projects";
 
 type Props = {
@@ -43,15 +43,13 @@ export function ProjectFloorplans({ eyebrow, plans }: Props) {
           ))}
         </div>
 
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={current.type}
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -16 }}
-            transition={{ duration: 0.4 }}
-            className="grid lg:grid-cols-12 gap-8"
-          >
+        <motion.div
+          key={current.type}
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+          className="grid lg:grid-cols-12 gap-8"
+        >
             <div className="lg:col-span-8 relative aspect-[4/3] overflow-hidden rounded-xl bg-bg">
               {current.photos[imgIdx] && (
                 <Image
@@ -93,7 +91,6 @@ export function ProjectFloorplans({ eyebrow, plans }: Props) {
               </div>
             </div>
           </motion.div>
-        </AnimatePresence>
       </div>
     </section>
   );
