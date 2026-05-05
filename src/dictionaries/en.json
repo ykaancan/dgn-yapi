@@ -132,26 +132,20 @@
       "people": [
         {
           "name": "Sedat Akbaş",
-          "role": "Founding Partner",
-          "bio": "Leads construction and on-site operations, drawing on dozens of completed projects. (placeholder)",
+          "role": "",
+          "bio": "",
           "phone": "+90 532 629 40 35"
         },
         {
           "name": "Eyyüp Doğan",
-          "role": "Founding Partner",
-          "bio": "Heads investment, planning, and client relations. Shapes the corporate identity of the firm. (placeholder)",
+          "role": "Founder",
+          "bio": "",
           "phone": "+90 532 277 06 09"
-        },
-        {
-          "name": "Akın Kocaman",
-          "role": "Founding Partner",
-          "bio": "Runs operations and supply chain. Responsible for material quality and on-site discipline. (placeholder)",
-          "phone": "+90 541 268 22 51"
         },
         {
           "name": "Sümeyye Sarıkaya",
           "role": "Architect",
-          "bio": "Leads architectural design and apartment-type planning across projects. (placeholder)",
+          "bio": "",
           "phone": "+90 541 596 88 28"
         }
       ]

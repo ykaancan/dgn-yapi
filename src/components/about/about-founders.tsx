@@ -17,7 +17,7 @@ export function AboutFounders({ dict }: { dict: Dictionary }) {
           </h2>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-3">
           {dict.about.founders.people.map((person, idx) => (
             <motion.div
               key={person.name}
@@ -37,10 +37,14 @@ export function AboutFounders({ dict }: { dict: Dictionary }) {
               </div>
               <div className="p-7 space-y-3">
                 <h3 className="font-display text-2xl text-fg">{person.name}</h3>
-                <p className="text-bronze text-sm tracking-wide">{person.role}</p>
-                <p className="text-fg/70 text-sm leading-relaxed pt-2">
-                  {person.bio}
-                </p>
+                {person.role && (
+                  <p className="text-bronze text-sm tracking-wide">{person.role}</p>
+                )}
+                {person.bio && (
+                  <p className="text-fg/70 text-sm leading-relaxed pt-2">
+                    {person.bio}
+                  </p>
+                )}
                 <a
                   href={`tel:${person.phone.replace(/\s/g, "")}`}
                   className="inline-flex items-center gap-2 text-fg-muted hover:text-bronze transition-colors text-sm pt-3"

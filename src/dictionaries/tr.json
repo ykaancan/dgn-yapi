@@ -132,26 +132,20 @@
       "people": [
         {
           "name": "Sedat Akbaş",
-          "role": "Kurucu Ortak",
-          "bio": "Onlarca tamamlanmış proje tecrübesiyle DGN Yapı'nın inşaat ve şantiye süreçlerinin başında. (placeholder)",
+          "role": "",
+          "bio": "",
           "phone": "+90 532 629 40 35"
         },
         {
           "name": "Eyyüp Doğan",
-          "role": "Kurucu Ortak",
-          "bio": "Yatırım, planlama ve müşteri ilişkilerinden sorumlu. Şirketin kurumsal kimliğine yön veriyor. (placeholder)",
+          "role": "Kurucu",
+          "bio": "",
           "phone": "+90 532 277 06 09"
-        },
-        {
-          "name": "Akın Kocaman",
-          "role": "Kurucu Ortak",
-          "bio": "Operasyon ve tedarik zincirini yönetiyor. Malzeme kalitesi ve şantiye disiplininden sorumlu. (placeholder)",
-          "phone": "+90 541 268 22 51"
         },
         {
           "name": "Sümeyye Sarıkaya",
           "role": "Mimar",
-          "bio": "Projelerin mimari tasarımı ve tip planlaması süreçlerini yürütüyor. (placeholder)",
+          "bio": "",
           "phone": "+90 541 596 88 28"
         }
       ]
