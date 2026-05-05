@@ -6,6 +6,7 @@ import { ProjectOverview } from "@/components/project/project-overview";
 import { ProjectGallery } from "@/components/project/project-gallery";
 import { ProjectFloorplans } from "@/components/project/project-floorplans";
 import { ProjectVideo } from "@/components/project/project-video";
+import { ProjectLocation } from "@/components/project/project-location";
 import { ProjectCta } from "@/components/project/project-cta";
 
 export async function generateStaticParams() {
@@ -99,6 +100,10 @@ export default async function ProjectPage({
           images={project.santiye}
           alt={`${meta.name} şantiye`}
         />
+      )}
+
+      {project.map && (
+        <ProjectLocation dict={dict} map={project.map} name={meta.name} />
       )}
 
       <ProjectCta dict={dict} />

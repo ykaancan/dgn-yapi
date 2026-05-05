@@ -5,6 +5,12 @@ export type FloorPlan = {
   photos: string[];
 };
 
+export type ProjectMap = {
+  lat: number;
+  lng: number;
+  shareUrl: string;
+};
+
 export type Project = {
   slug: string;
   dictKey: "doganYasam" | "camlik" | "gunaltay";
@@ -15,6 +21,7 @@ export type Project = {
   renders?: string[];
   floorplans?: FloorPlan[];
   santiye?: string[];
+  map?: ProjectMap;
   featured?: boolean;
 };
 
@@ -53,6 +60,11 @@ export const projects: Project[] = [
       { type: "3+1", photos: photos("/projects/dogan-yasam-evleri/floorplans/3plus1", 30) },
     ],
     santiye: photos("/projects/dogan-yasam-evleri/santiye", 37),
+    map: {
+      lat: 38.380685,
+      lng: 27.105207,
+      shareUrl: "https://maps.app.goo.gl/zH7Z3BWE1a9YBH8Z9",
+    },
   },
   {
     slug: "camlik",
@@ -62,6 +74,11 @@ export const projects: Project[] = [
     hero: "/projects/camlik/cover.jpg",
     video: "/video/camlik.mp4",
     santiye: photos("/projects/camlik", 53),
+    map: {
+      lat: 38.37216,
+      lng: 27.1267229,
+      shareUrl: "https://maps.app.goo.gl/H5tP6P1X43cZGprD7",
+    },
   },
   {
     slug: "gunaltay",
