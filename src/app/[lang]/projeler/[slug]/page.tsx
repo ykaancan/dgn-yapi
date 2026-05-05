@@ -96,9 +96,13 @@ export default async function ProjectPage({
 
       {project.santiye && project.santiye.length > 0 && (
         <ProjectGallery
-          eyebrow={dict.project.santiye}
+          eyebrow={
+            project.status === "completed"
+              ? dict.project.gallery
+              : dict.project.santiye
+          }
           images={project.santiye}
-          alt={`${meta.name} şantiye`}
+          alt={`${meta.name} galeri`}
         />
       )}
 
@@ -106,7 +110,7 @@ export default async function ProjectPage({
         <ProjectLocation dict={dict} map={project.map} name={meta.name} />
       )}
 
-      <ProjectCta dict={dict} />
+      {!project.noSales && <ProjectCta dict={dict} />}
     </>
   );
 }

@@ -61,7 +61,7 @@ export function ProjectOverview({ dict, overview, longBody, facts }: Props) {
                     className="flex items-start justify-between gap-6 pb-5 border-b border-white/5 last:border-0 last:pb-0"
                   >
                     <dt className="text-fg-muted text-sm">{fact.label}</dt>
-                    <dd className="text-fg text-right font-medium">
+                    <dd className="text-fg text-right font-medium whitespace-pre-line">
                       {fact.value}
                     </dd>
                   </div>
