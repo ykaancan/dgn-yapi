@@ -5,6 +5,9 @@ export type FloorPlan = {
   photos: string[];
 };
 
+const reorder = (basePath: string, order: number[]) =>
+  order.map((n) => `${basePath}/photo-${n}.jpg`);
+
 export type ProjectMap = {
   lat: number;
   lng: number;
@@ -23,6 +26,7 @@ export type Project = {
   santiye?: string[];
   map?: ProjectMap;
   featured?: boolean;
+  noSales?: boolean;
 };
 
 const photos = (basePath: string, count: number) =>
@@ -87,7 +91,7 @@ export const projects: Project[] = [
     cover: "/projects/gunaltay/photo-1.jpg",
     hero: "/projects/gunaltay/photo-1.jpg",
     video: "/video/gunaltay.mp4",
-    santiye: photos("/projects/gunaltay", 36),
+    noSales: true,
   },
 ];
 

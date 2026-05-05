@@ -69,22 +69,22 @@ export function ProjectFloorplans({ eyebrow, plans }: Props) {
               <p className="text-fg-muted text-sm mb-4">
                 {imgIdx + 1} / {current.photos.length}
               </p>
-              <div className="grid grid-cols-4 lg:grid-cols-3 gap-2 max-h-[26rem] overflow-y-auto pr-1">
+              <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-3 gap-2 max-h-[26rem] overflow-y-auto pr-1">
                 {current.photos.map((src, i) => (
                   <button
                     key={src}
                     onClick={() => setImgIdx(i)}
-                    className={`relative aspect-square overflow-hidden rounded transition-all ${
+                    className={`relative aspect-[4/3] overflow-hidden rounded bg-bg transition-all ${
                       i === imgIdx
                         ? "ring-2 ring-bronze opacity-100"
-                        : "opacity-60 hover:opacity-100"
+                        : "opacity-70 hover:opacity-100"
                     }`}
                   >
                     <Image
                       src={src}
                       alt=""
                       fill
-                      sizes="(min-width: 1024px) 100px, (min-width: 768px) 110px, 80px"
+                      sizes="(min-width: 1024px) 100px, (min-width: 768px) 110px, 100px"
                       className="object-cover"
                       loading="lazy"
                     />

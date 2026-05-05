@@ -92,6 +92,23 @@ export function SiteFooter({ lang, dict }: Props) {
             <Phone size={18} className="shrink-0 text-bronze" />
             {dict.footer.companyPhone}
           </a>
+          {dict.about.founders.people
+            .filter((p) => p.role && !/kurucu|founder/i.test(p.role))
+            .map((p) => (
+              <a
+                key={p.phone}
+                href={`tel:${p.phone.replace(/\s/g, "")}`}
+                className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"
+              >
+                <Phone size={18} className="shrink-0 text-bronze" />
+                <span className="flex flex-col">
+                  <span>{p.phone}</span>
+                  <span className="text-xs text-fg-muted">
+                    {p.name} · {p.role}
+                  </span>
+                </span>
+              </a>
+            ))}
           <a
             href={`mailto:${dict.footer.email}`}
             className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"

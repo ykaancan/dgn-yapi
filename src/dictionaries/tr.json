@@ -215,6 +215,7 @@
     "renders": "3D Görseller",
     "floorplans": "Daire Tipleri",
     "santiye": "Şantiye",
+    "gallery": "Galeri",
     "location": "Konum",
     "contactCta": "Satış Ofisi ile İletişime Geç",
     "brochure": "Broşürü İndir",
@@ -231,7 +232,7 @@
       "overview": "Doğan Yaşam Evleri, Karabağlar'ın yükselen değeri Esenlik bölgesinde, üç blok ve sosyal yaşam alanlarıyla birlikte yükseliyor. 1+1, 2+1 ve 3+1 daire seçenekleri, blok zemininde dükkanlar ve modern bir peyzaj düzeniyle proje, şehir hayatının kalbinde nefes alabilen bir yaşam vadediyor.",
       "longBody": "Modern hatlarıyla İzmir'in karakterini harmanlayan proje; açık ve kapalı sosyal alanlar, geniş yeşil bahçe, kapalı otopark ve 7/24 güvenlik standartlarıyla tasarlandı. Her daire, doğal aydınlatma ve yatay-dikey mimari süreklilik düşünülerek planlandı.",
       "blocks": "3 Blok (A, B, C)",
-      "units": "49 × 3+1, 48 × 2+1, 52 × 1+1",
+      "units": "49 tane 3+1\n48 tane 2+1\n52 tane 1+1",
       "types": "3+1 (116,70 m²), 2+1 (75 m²), 1+1 (Tip 1: 50 m², Tip 2: 40 m²)",
       "commercial": "6 İşyeri + ATM"
     },
@@ -244,7 +245,7 @@
     },
     "gunaltay": {
       "tagline": "Şehrin kalbinde yeni bir başlangıç",
-      "overview": "Günaltay projesi, kentin canlı dokusuna entegre edilmiş yaşam alanlarıyla şehrin kalbinde yeni bir başlangıç sundu. Detaylar için satış ofisimizi arayın."
+      "overview": "Günaltay projesi, kentin canlı dokusuna entegre edilmiş yaşam alanlarıyla şehrin kalbinde yeni bir başlangıç sundu. Proje tamamlanmıştır; tüm daireler teslim edilmiştir."
     }
   },
   "contact": {
