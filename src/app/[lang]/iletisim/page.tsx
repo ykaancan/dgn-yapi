@@ -63,7 +63,7 @@ export default async function ContactPage({
                 className="flex gap-4 text-fg/85 hover:text-bronze transition-colors"
               >
                 <Phone size={20} className="shrink-0 mt-0.5 text-bronze" />
-                <span className="flex flex-col">
+                <span className="inline-flex flex-col items-end leading-tight">
                   <span>
                     +90 232 430 2
                     <span className="text-bronze font-semibold text-[1.15em]">

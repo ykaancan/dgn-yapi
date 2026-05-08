@@ -95,7 +95,7 @@ export function SiteFooter({ lang, dict }: Props) {
             className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"
           >
             <Phone size={18} className="shrink-0 text-bronze" />
-            <span className="flex flex-col">
+            <span className="inline-flex flex-col items-end leading-tight">
               <span>
                 +90 232 430 2
                 <span className="text-bronze font-semibold text-[1.15em]">
