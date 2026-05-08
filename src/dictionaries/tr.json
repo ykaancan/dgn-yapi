@@ -96,8 +96,8 @@
   },
   "about": {
     "eyebrow": "KURUMSAL",
-    "title": "Üç kuşaktır aynı imzayla yapı üretiyoruz.",
-    "lead": "DGN Yapı, İzmir'de prestijli yaşam projelerinin altına imza atan, üç kuşaklık inşaat geleneğini modern mühendislik anlayışıyla buluşturan bir aile şirketidir.",
+    "title": "Geleceği güvenle tasarlıyor, modern mimariyle inşa ediyoruz.",
+    "lead": "DGN Doğan Yapı olarak kurulduğumuz günden bu yana, geleneksel güveni modern teknolojiyle birleştirerek estetik, sağlam ve sürdürülebilir yaşam alanları inşa ediyoruz.",
     "story": {
       "eyebrow": "HİKAYEMİZ",
       "title": "Bir ailenin, yapıya verdiği sözden doğdu.",
@@ -131,16 +131,16 @@
       "title": "Tanışın, DGN Yapı ekibiyle.",
       "people": [
         {
-          "name": "Sedat Akbaş",
-          "role": "",
-          "bio": "",
-          "phone": "+90 532 629 40 35"
-        },
-        {
           "name": "Eyyüp Doğan",
           "role": "Kurucu",
           "bio": "",
           "phone": "+90 532 277 06 09"
+        },
+        {
+          "name": "Sedat Akbaş",
+          "role": "",
+          "bio": "",
+          "phone": "+90 532 629 40 35"
         },
         {
           "name": "Sümeyye Sarıkaya",
@@ -200,8 +200,8 @@
     "tagline": "Yaşamın içinde prestijli yapılar.",
     "address": "Esenlik Mah. 9035 Sok. No: 2/A\nKarabağlar / İzmir",
     "phone": "+90 532 629 40 35",
+    "phoneLabel": "Sedat Akbaş",
     "companyPhone": "+90 232 430 23 46",
-    "companyPhoneNote": "Tuşlu telefonda son 3 hane (346) DGN harflerine denk gelir.",
     "email": "bilgi@dgnyapi.tr",
     "rights": "Tüm hakları saklıdır.",
     "nav": "Menü",

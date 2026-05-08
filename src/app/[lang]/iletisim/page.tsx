@@ -51,7 +51,12 @@ export default async function ContactPage({
                 className="flex gap-4 text-fg/85 hover:text-bronze transition-colors"
               >
                 <Phone size={20} className="shrink-0 mt-0.5 text-bronze" />
-                <span>{dict.footer.phone}</span>
+                <span className="flex flex-col">
+                  <span>{dict.footer.phone}</span>
+                  <span className="text-xs text-fg-muted mt-0.5">
+                    {dict.footer.phoneLabel}
+                  </span>
+                </span>
               </a>
               <a
                 href={`tel:${dict.footer.companyPhone.replace(/\s/g, "")}`}
@@ -59,9 +64,14 @@ export default async function ContactPage({
               >
                 <Phone size={20} className="shrink-0 mt-0.5 text-bronze" />
                 <span className="flex flex-col">
-                  <span>{dict.footer.companyPhone}</span>
-                  <span className="text-xs text-fg-muted mt-0.5">
-                    {dict.footer.companyPhoneNote}
+                  <span>
+                    +90 232 430 2
+                    <span className="text-bronze font-semibold text-[1.15em]">
+                      3 46
+                    </span>
+                  </span>
+                  <span className="text-xs text-bronze font-semibold tracking-widest mt-0.5">
+                    DGN
                   </span>
                 </span>
               </a>

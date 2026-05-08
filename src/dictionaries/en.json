@@ -96,8 +96,8 @@
   },
   "about": {
     "eyebrow": "ABOUT US",
-    "title": "Three generations, one signature on every build.",
-    "lead": "DGN Yapı is a family business behind some of İzmir's most prestigious living projects, blending three generations of construction tradition with modern engineering.",
+    "title": "Designing the future with confidence, building it with modern architecture.",
+    "lead": "Since the day we were founded, DGN Doğan Yapı has combined traditional reliability with modern technology to build aesthetic, durable and sustainable living spaces.",
     "story": {
       "eyebrow": "OUR STORY",
       "title": "Born from a family's word, given to the craft.",
@@ -131,16 +131,16 @@
       "title": "Meet the DGN Yapı team.",
       "people": [
         {
-          "name": "Sedat Akbaş",
-          "role": "",
-          "bio": "",
-          "phone": "+90 532 629 40 35"
-        },
-        {
           "name": "Eyyüp Doğan",
           "role": "Founder",
           "bio": "",
           "phone": "+90 532 277 06 09"
+        },
+        {
+          "name": "Sedat Akbaş",
+          "role": "",
+          "bio": "",
+          "phone": "+90 532 629 40 35"
         },
         {
           "name": "Sümeyye Sarıkaya",
@@ -200,8 +200,8 @@
     "tagline": "Prestigious buildings at the heart of life.",
     "address": "Esenlik Mah. 9035 Sok. No: 2/A\nKarabağlar / İzmir",
     "phone": "+90 532 629 40 35",
+    "phoneLabel": "Sedat Akbaş",
     "companyPhone": "+90 232 430 23 46",
-    "companyPhoneNote": "On a keypad phone the last three digits (346) spell DGN.",
     "email": "bilgi@dgnyapi.tr",
     "rights": "All rights reserved.",
     "nav": "Menu",
