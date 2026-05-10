@@ -90,7 +90,7 @@ export default async function RootLayout({
       addressCountry: "TR",
     },
     telephone: "+90 232 430 23 46",
-    email: "bilgi@dgnyapi.tr",
+    email: "doganoz47@hotmail.com",
     openingHours: "Mo-Sa 09:00-19:00",
     sameAs: ["https://instagram.com/dgnyapiinsaat"],
     areaServed: { "@type": "City", name: "İzmir" },
