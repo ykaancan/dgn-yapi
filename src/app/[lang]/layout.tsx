@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Fraunces } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../globals.css";
 import { getDictionary, hasLocale, locales } from "@/lib/i18n";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -81,6 +82,7 @@ export default async function RootLayout({
         <main className="flex-1">{children}</main>
         <SiteFooter lang={lang} dict={dict} />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
