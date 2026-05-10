@@ -91,13 +91,7 @@ export async function POST(request: Request) {
 
     if (sendError) {
       console.error("[contact] resend rejected", { sendError, to, from });
-      // Temporary: expose the Resend error message in the response so we
-      // can debug the test-mode/domain-verification issue without needing
-      // access to Vercel function logs. Remove once delivery is confirmed.
-      return NextResponse.json(
-        { error: "send failed", debug: { resend: sendError, to, from } },
-        { status: 502 },
-      );
+      return NextResponse.json({ error: "send failed" }, { status: 502 });
     }
     console.log("[contact] sent", { id: data?.id, to });
 
