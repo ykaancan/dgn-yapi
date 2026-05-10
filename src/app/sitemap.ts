@@ -7,7 +7,7 @@ const SITE_URL = "https://dgnyapi.tr";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  const staticRoutes = ["", "/kurumsal", "/projeler", "/iletisim"];
+  const staticRoutes = ["", "/kurumsal", "/projeler", "/iletisim", "/aydinlatma-metni"];
 
   const entries: MetadataRoute.Sitemap = [];
 

@@ -132,7 +132,7 @@ export default async function ContactPage({
 
           <div className="lg:col-span-7">
             <div className="rounded-xl border border-white/5 bg-bg-soft p-7 md:p-9">
-              <ContactForm dict={dict} />
+              <ContactForm dict={dict} lang={lang} />
             </div>
           </div>
         </div>

@@ -282,7 +282,82 @@
       "submit": "Send",
       "submitting": "Sending…",
       "success": "Your message has been sent. We'll be in touch shortly.",
-      "error": "Something went wrong. Please try again."
+      "error": "Something went wrong. Please try again.",
+      "consent": "By submitting this form, you accept the processing of your data as described in our {link}.",
+      "consentLink": "privacy notice"
     }
+  },
+  "kvkk": {
+    "meta": {
+      "title": "Privacy Notice",
+      "description": "DGN Yapı's privacy notice under Turkey's KVKK: how we process, store, and protect your personal data."
+    },
+    "title": "Privacy Notice",
+    "subtitle": "Disclosure under Turkey's Personal Data Protection Law",
+    "intro": "DGN Yapı (\"the Company\"), as data controller under Turkey's Personal Data Protection Law No. 6698 (\"KVKK\"), provides this notice to inform you about how we process the personal data you submit through our contact form.",
+    "footerLink": "Privacy Notice",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdated": "10 May 2026",
+    "sections": [
+      {
+        "heading": "Data Controller",
+        "body": "DGN Yapı\nEsenlik Mh. 9035 Sk. No: 2/A, Karabağlar / İzmir\nbilgi@dgnyapi.tr",
+        "items": []
+      },
+      {
+        "heading": "Personal Data Processed",
+        "body": "The following data submitted through our contact form is processed:",
+        "items": [
+          "Name and surname",
+          "Phone number",
+          "Email address (optional)",
+          "The content of the message you submit"
+        ]
+      },
+      {
+        "heading": "Purposes of Processing",
+        "body": "Your personal data is processed for the following purposes:",
+        "items": [
+          "Responding to your questions, requests, and suggestions",
+          "Providing information about our projects",
+          "Enabling our sales office to follow up with you"
+        ]
+      },
+      {
+        "heading": "Legal Basis",
+        "body": "Your personal data is processed pursuant to KVKK Article 5/2(c), as it is directly related to the establishment or performance of a contract, and Article 5/2(f), as it is necessary for our legitimate interests, provided that such interests do not infringe on your fundamental rights and freedoms.",
+        "items": []
+      },
+      {
+        "heading": "Transfers",
+        "body": "Your personal data is shared on a limited basis with our email infrastructure provider (Resend Inc.) and our hosting provider (Vercel Inc.). It is not shared with any other third parties.",
+        "items": []
+      },
+      {
+        "heading": "Retention Period",
+        "body": "Your personal data is retained for the period required to respond to your request. If retention is required for longer due to legal obligations, the periods set forth in the relevant legislation will be observed.",
+        "items": []
+      },
+      {
+        "heading": "Your Rights",
+        "body": "Under KVKK Article 11, you may apply to the Company to exercise the following rights regarding your personal data:",
+        "items": [
+          "Learn whether your personal data is being processed",
+          "Request information about it if processed",
+          "Learn the purpose of processing and whether the data is used in accordance with that purpose",
+          "Learn the third parties to whom your data has been transferred, in Turkey or abroad",
+          "Request correction if your data has been processed incompletely or inaccurately",
+          "Request deletion or destruction within the conditions set out in the KVKK",
+          "Request that corrections, deletions, and destructions be communicated to third parties to whom the data was transferred",
+          "Object to a result that disadvantages you arising solely from automated processing",
+          "Claim damages if you have suffered loss due to unlawful processing"
+        ]
+      },
+      {
+        "heading": "How to Apply",
+        "body": "To exercise your rights under KVKK, you may contact us at bilgi@dgnyapi.tr or by sending a written application to the postal address above. Your application will be answered within thirty (30) days at the latest, in accordance with KVKK Article 13.",
+        "items": []
+      }
+    ]
   }
 }

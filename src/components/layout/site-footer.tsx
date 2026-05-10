@@ -150,7 +150,15 @@ export function SiteFooter({ lang, dict }: Props) {
           <p>
             © {year} DGN Yapı. {dict.footer.rights}
           </p>
-          <p>İzmir, Türkiye</p>
+          <div className="flex items-center gap-5">
+            <Link
+              href={`/${lang}/aydinlatma-metni`}
+              className="hover:text-bronze transition-colors"
+            >
+              {dict.kvkk.footerLink}
+            </Link>
+            <p>İzmir, Türkiye</p>
+          </div>
         </div>
       </div>
     </footer>

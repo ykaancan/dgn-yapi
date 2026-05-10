@@ -1,11 +1,12 @@
 "use client";
 
+import Link from "next/link";
 import { useRef, useState } from "react";
-import type { Dictionary } from "@/lib/i18n";
+import type { Dictionary, Locale } from "@/lib/i18n";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-export function ContactForm({ dict }: { dict: Dictionary }) {
+export function ContactForm({ dict, lang }: { dict: Dictionary; lang: Locale }) {
   const [status, setStatus] = useState<Status>("idle");
   const mountedAt = useRef(Date.now());
 
@@ -66,6 +67,21 @@ export function ContactForm({ dict }: { dict: Dictionary }) {
       >
         {status === "submitting" ? dict.contact.form.submitting : dict.contact.form.submit}
       </button>
+      <p className="text-xs text-fg-muted leading-relaxed">
+        {dict.contact.form.consent.split("{link}").map((part, i, arr) => (
+          <span key={i}>
+            {part}
+            {i < arr.length - 1 && (
+              <Link
+                href={`/${lang}/aydinlatma-metni`}
+                className="text-bronze hover:underline"
+              >
+                {dict.contact.form.consentLink}
+              </Link>
+            )}
+          </span>
+        ))}
+      </p>
       {status === "success" && (
         <p className="text-bronze text-sm">{dict.contact.form.success}</p>
       )}

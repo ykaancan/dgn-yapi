@@ -282,7 +282,82 @@
       "submit": "Gönder",
       "submitting": "Gönderiliyor…",
       "success": "Mesajınız iletildi. En kısa sürede sizi arayacağız.",
-      "error": "Bir sorun oluştu. Lütfen tekrar deneyin."
+      "error": "Bir sorun oluştu. Lütfen tekrar deneyin.",
+      "consent": "Bu formu göndererek {link} kapsamında verilerinizin işlenmesini kabul etmiş olursunuz.",
+      "consentLink": "aydınlatma metnimiz"
     }
+  },
+  "kvkk": {
+    "meta": {
+      "title": "Aydınlatma Metni",
+      "description": "DGN Yapı KVKK aydınlatma metni: kişisel verilerinizi nasıl işliyor, saklıyor ve koruyoruz."
+    },
+    "title": "Aydınlatma Metni",
+    "subtitle": "KVKK Kapsamında Bilgilendirme",
+    "intro": "DGN Yapı (\"Şirket\") olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") kapsamında veri sorumlusu sıfatıyla, internet sitemiz üzerinden iletişime geçtiğinizde topladığımız kişisel verileriniz hakkında sizleri bilgilendirmek isteriz.",
+    "footerLink": "Aydınlatma Metni",
+    "lastUpdatedLabel": "Son güncelleme",
+    "lastUpdated": "10 Mayıs 2026",
+    "sections": [
+      {
+        "heading": "Veri Sorumlusu",
+        "body": "DGN Yapı\nEsenlik Mh. 9035 Sk. No: 2/A, Karabağlar / İzmir\nbilgi@dgnyapi.tr",
+        "items": []
+      },
+      {
+        "heading": "İşlenen Kişisel Veriler",
+        "body": "İletişim formu üzerinden tarafımıza iletilen aşağıdaki veriler işlenmektedir:",
+        "items": [
+          "Ad ve soyad",
+          "Telefon numarası",
+          "E-posta adresi (opsiyonel)",
+          "İletişim formu üzerinden ilettiğiniz mesaj içeriği"
+        ]
+      },
+      {
+        "heading": "İşlenme Amaçları",
+        "body": "Kişisel verileriniz aşağıdaki amaçlarla işlenmektedir:",
+        "items": [
+          "Tarafınızca iletilen sorulara, taleplere ve önerilere yanıt vermek",
+          "Projelerimiz hakkında bilgi sağlamak",
+          "Satış ofisimizden tarafınıza geri dönüş yapılmasını sağlamak"
+        ]
+      },
+      {
+        "heading": "Hukuki Sebep",
+        "body": "Kişisel verileriniz, KVKK madde 5/2 (c) uyarınca sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması ve madde 5/2 (f) uyarınca temel hak ve özgürlüklerinize zarar vermemek kaydıyla meşru menfaatlerimiz çerçevesinde işlenmektedir.",
+        "items": []
+      },
+      {
+        "heading": "Aktarımlar",
+        "body": "Kişisel verileriniz; e-posta gönderim altyapısı sağlayıcımız (Resend Inc.) ve barındırma altyapısı sağlayıcımız (Vercel Inc.) ile sınırlı kapsamda paylaşılmaktadır. Bunun dışında üçüncü kişilerle paylaşılmaz.",
+        "items": []
+      },
+      {
+        "heading": "Saklama Süresi",
+        "body": "Kişisel verileriniz, talebinize cevap verilmesi için gerekli olan süre boyunca saklanır. Yasal yükümlülükler nedeniyle daha uzun saklanması gereken durumlarda ilgili mevzuatta öngörülen sürelere uyulur.",
+        "items": []
+      },
+      {
+        "heading": "Haklarınız",
+        "body": "KVKK madde 11 uyarınca, kişisel verilerinize ilişkin olarak Şirketimize başvurarak aşağıdaki haklara sahipsiniz:",
+        "items": [
+          "Kişisel verilerinizin işlenip işlenmediğini öğrenme",
+          "İşlenmişse buna ilişkin bilgi talep etme",
+          "Verilerin işlenme amacını ve amaca uygun kullanılıp kullanılmadığını öğrenme",
+          "Yurt içinde veya yurt dışında verilerin aktarıldığı üçüncü kişileri öğrenme",
+          "Verilerin eksik veya yanlış işlenmiş olması halinde düzeltilmesini isteme",
+          "KVKK'da öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme",
+          "Düzeltme, silme ve yok etme işlemlerinin verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme",
+          "İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme",
+          "Kanuna aykırı işleme nedeniyle uğradığınız zararın giderilmesini talep etme"
+        ]
+      },
+      {
+        "heading": "Başvuru Yöntemi",
+        "body": "KVKK kapsamındaki haklarınızı kullanmak için, bilgi@dgnyapi.tr e-posta adresine veya yukarıda belirtilen posta adresine yazılı başvuru ile ulaşabilirsiniz. Başvurunuz, KVKK'nın 13. maddesi uyarınca en geç otuz (30) gün içinde sonuçlandırılacaktır.",
+        "items": []
+      }
+    ]
   }
 }
