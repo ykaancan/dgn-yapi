@@ -1,18 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { Dictionary } from "@/lib/i18n";
 
 type Status = "idle" | "submitting" | "success" | "error";
 
 export function ContactForm({ dict }: { dict: Dictionary }) {
   const [status, setStatus] = useState<Status>("idle");
+  const mountedAt = useRef(Date.now());
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
     const data = new FormData(e.currentTarget);
-    const payload = Object.fromEntries(data.entries());
+    const payload = {
+      ...Object.fromEntries(data.entries()),
+      _ts: String(mountedAt.current),
+    };
 
     try {
       const res = await fetch("/api/contact", {
@@ -30,6 +34,20 @@ export function ContactForm({ dict }: { dict: Dictionary }) {
 
   return (
     <form onSubmit={onSubmit} className="space-y-4">
+      <div
+        aria-hidden="true"
+        className="absolute left-[-10000px] top-auto w-px h-px overflow-hidden"
+      >
+        <label>
+          Website
+          <input
+            type="text"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+          />
+        </label>
+      </div>
       <div className="grid sm:grid-cols-2 gap-4">
         <Field name="name" label={dict.contact.form.name} required />
         <Field name="phone" label={dict.contact.form.phone} type="tel" required />

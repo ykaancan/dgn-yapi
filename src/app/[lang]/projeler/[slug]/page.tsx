@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale, locales } from "@/lib/i18n";
 import { getProject, projects } from "@/content/projects";
@@ -13,6 +14,42 @@ export async function generateStaticParams() {
   return locales.flatMap((lang) =>
     projects.map((project) => ({ lang, slug: project.slug })),
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string; slug: string }>;
+}): Promise<Metadata> {
+  const { lang, slug } = await params;
+  if (!hasLocale(lang)) return {};
+  const project = getProject(slug);
+  if (!project) return {};
+  const dict = await getDictionary(lang);
+  const detail = dict.project[project.dictKey];
+  return {
+    title: detail.meta.title,
+    description: detail.meta.description,
+    alternates: {
+      canonical: `/${lang}/projeler/${slug}`,
+      languages: {
+        tr: `/tr/projeler/${slug}`,
+        en: `/en/projeler/${slug}`,
+      },
+    },
+    openGraph: {
+      title: detail.meta.title,
+      description: detail.meta.description,
+      url: `/${lang}/projeler/${slug}`,
+      images: [{ url: project.hero, width: 1920, height: 1080, alt: detail.meta.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: detail.meta.title,
+      description: detail.meta.description,
+      images: [project.hero],
+    },
+  };
 }
 
 export default async function ProjectPage({

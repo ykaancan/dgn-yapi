@@ -37,6 +37,10 @@
     "status": "Under Construction"
   },
   "projects": {
+    "meta": {
+      "title": "Projects",
+      "description": "Active, completed and upcoming residential projects from DGN Yapı in İzmir."
+    },
     "eyebrow": "OUR PROJECTS",
     "title": "Projects we are currently building.",
     "viewAll": "All Projects",
@@ -95,6 +99,10 @@
     "cta": "Call Us"
   },
   "about": {
+    "meta": {
+      "title": "About",
+      "description": "Meet the team and values behind DGN Yapı's prestigious living projects in İzmir."
+    },
     "eyebrow": "ABOUT US",
     "title": "Designing the future with confidence, building it with modern architecture.",
     "lead": "Since the day we were founded, DGN Doğan Yapı has combined traditional reliability with modern technology to build aesthetic, durable and sustainable living spaces.",
@@ -190,6 +198,10 @@
     }
   },
   "iletisim": {
+    "meta": {
+      "title": "Contact",
+      "description": "Visit our İzmir Karabağlar sales office, find directions, or send us a message."
+    },
     "lead": "Reach out for questions, early reservations, or to visit our sales office in person. We'll get back to you shortly.",
     "officeTitle": "Sales Office",
     "hoursTitle": "Office Hours",
@@ -228,6 +240,10 @@
       "commercial": "Commercial"
     },
     "doganYasam": {
+      "meta": {
+        "title": "Doğan Yaşam Evleri — Karabağlar / İzmir",
+        "description": "A 3-block residential project rising in Karabağlar Esenlik, with 1+1, 2+1, 3+1 apartment options, social amenities and shops."
+      },
       "tagline": "A prestigious project at the heart of life",
       "overview": "Doğan Yaşam Evleri rises in the Esenlik area of Karabağlar with three blocks and social living spaces. 1+1, 2+1, and 3+1 apartment options, ground-floor shops, and a modern landscape design promise a life that breathes at the heart of the city.",
       "longBody": "Blending modern lines with İzmir's character, the project comes with open and covered social areas, a large green garden, indoor parking, and 24/7 security as standard. Each apartment is planned for natural light and architectural continuity.",
@@ -237,6 +253,10 @@
       "commercial": "6 Commercial Units + ATM"
     },
     "camlik": {
+      "meta": {
+        "title": "Central Çamlık — İzmir",
+        "description": "A completed modern living project where city meets nature. Single block, 39 apartments."
+      },
       "tagline": "Modern living in touch with nature",
       "overview": "The Central Çamlık project sits where nature meets the city, offering a concept built for the needs of modern life. Call our sales office for details.",
       "blocks": "Single Block",
@@ -244,6 +264,10 @@
       "types": "3+1"
     },
     "gunaltay": {
+      "meta": {
+        "title": "Günaltay Project — İzmir",
+        "description": "A new beginning in the heart of the city. Completed residential project; all units delivered."
+      },
       "tagline": "A new beginning in the heart of the city",
       "overview": "The Günaltay project delivered a new chapter at the heart of the city — apartments integrated into the city's vibrant fabric. The project is complete and all units have been handed over."
     }

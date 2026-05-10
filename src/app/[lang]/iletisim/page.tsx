@@ -1,9 +1,33 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Clock, ExternalLink, Mail, MapPin, Phone } from "lucide-react";
 import { getDictionary, hasLocale } from "@/lib/i18n";
 import { ContactForm } from "@/components/ui/contact-form";
 
 const ADDRESS_QUERY = "Esenlik Mh. 9035 Sk. No:2/A, Karabağlar, İzmir";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const dict = await getDictionary(lang);
+  return {
+    title: dict.iletisim.meta.title,
+    description: dict.iletisim.meta.description,
+    alternates: {
+      canonical: `/${lang}/iletisim`,
+      languages: { tr: "/tr/iletisim", en: "/en/iletisim" },
+    },
+    openGraph: {
+      title: dict.iletisim.meta.title,
+      description: dict.iletisim.meta.description,
+      url: `/${lang}/iletisim`,
+    },
+  };
+}
 
 export default async function ContactPage({
   params,

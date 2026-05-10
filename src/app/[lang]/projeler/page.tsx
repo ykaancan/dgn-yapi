@@ -1,6 +1,30 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "@/lib/i18n";
 import { ProjectsList } from "@/components/projects/projects-list";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const dict = await getDictionary(lang);
+  return {
+    title: dict.projects.meta.title,
+    description: dict.projects.meta.description,
+    alternates: {
+      canonical: `/${lang}/projeler`,
+      languages: { tr: "/tr/projeler", en: "/en/projeler" },
+    },
+    openGraph: {
+      title: dict.projects.meta.title,
+      description: dict.projects.meta.description,
+      url: `/${lang}/projeler`,
+    },
+  };
+}
 
 export default async function ProjectsListPage({
   params,

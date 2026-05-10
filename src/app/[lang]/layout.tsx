@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Fraunces } from "next/font/google";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 import { getDictionary, hasLocale, locales } from "@/lib/i18n";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -30,10 +31,14 @@ export async function generateMetadata({
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
   return {
-    title: dict.meta.title,
+    title: {
+      default: dict.meta.title,
+      template: "%s | DGN Yapı",
+    },
     description: dict.meta.description,
     metadataBase: new URL("https://dgnyapi.tr"),
     alternates: {
+      canonical: `/${lang}`,
       languages: {
         tr: "/tr",
         en: "/en",
@@ -45,6 +50,7 @@ export async function generateMetadata({
       type: "website",
       siteName: "DGN Yapı",
       locale: lang === "tr" ? "tr_TR" : "en_US",
+      url: `/${lang}`,
     },
     twitter: {
       card: "summary_large_image",
@@ -74,6 +80,7 @@ export default async function RootLayout({
         <SiteHeader lang={lang} dict={dict} />
         <main className="flex-1">{children}</main>
         <SiteFooter lang={lang} dict={dict} />
+        <Analytics />
       </body>
     </html>
   );

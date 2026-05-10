@@ -4,7 +4,19 @@ import { Resend } from "resend";
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, phone, email, message } = body as Record<string, string>;
+    const { name, phone, email, message, website, _ts } = body as Record<string, string>;
+
+    // Honeypot: real users can't fill an off-screen field. Drop silently with
+    // a 200 so bots can't detect the rejection and try a different vector.
+    if (website) {
+      return NextResponse.json({ ok: true });
+    }
+
+    // Time check: humans need ≥1.5s to fill the form. Bots submit instantly.
+    const ts = Number(_ts);
+    if (!Number.isFinite(ts) || Date.now() - ts < 1500) {
+      return NextResponse.json({ ok: true });
+    }
 
     if (!name || !phone) {
       return NextResponse.json({ error: "missing fields" }, { status: 400 });
