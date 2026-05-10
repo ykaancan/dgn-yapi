@@ -42,7 +42,7 @@ export async function POST(request: Request) {
 
     const phoneTel = phone.replace(/[^0-9+]/g, "");
     const resend = new Resend(apiKey);
-    await resend.emails.send({
+    const { data, error: sendError } = await resend.emails.send({
       from,
       to,
       replyTo: email || undefined,
@@ -88,6 +88,12 @@ export async function POST(request: Request) {
 </div>
       `.trim(),
     });
+
+    if (sendError) {
+      console.error("[contact] resend rejected", { sendError, to, from });
+      return NextResponse.json({ error: "send failed" }, { status: 502 });
+    }
+    console.log("[contact] sent", { id: data?.id, to });
 
     return NextResponse.json({ ok: true });
   } catch (err) {
