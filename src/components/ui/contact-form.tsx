@@ -12,8 +12,9 @@ export function ContactForm({ dict, lang }: { dict: Dictionary; lang: Locale }) 
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const form = e.currentTarget;
     setStatus("submitting");
-    const data = new FormData(e.currentTarget);
+    const data = new FormData(form);
     const payload = {
       ...Object.fromEntries(data.entries()),
       _ts: String(mountedAt.current),
@@ -27,7 +28,7 @@ export function ContactForm({ dict, lang }: { dict: Dictionary; lang: Locale }) 
       });
       if (!res.ok) throw new Error("send failed");
       setStatus("success");
-      e.currentTarget.reset();
+      form.reset();
     } catch {
       setStatus("error");
     }
