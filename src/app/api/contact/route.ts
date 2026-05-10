@@ -12,9 +12,9 @@ export async function POST(request: Request) {
       return NextResponse.json({ ok: true });
     }
 
-    // Time check: humans need ≥1.5s to fill the form. Bots submit instantly.
-    const ts = Number(_ts);
-    if (!Number.isFinite(ts) || Date.now() - ts < 1500) {
+    // The form always sends a numeric mount timestamp; if it's missing, the
+    // submission came from a non-JS bot POSTing directly to the endpoint.
+    if (!Number.isFinite(Number(_ts))) {
       return NextResponse.json({ ok: true });
     }
 
