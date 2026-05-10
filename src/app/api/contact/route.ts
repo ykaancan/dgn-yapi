@@ -37,20 +37,7 @@ export async function POST(request: Request) {
     if (!apiKey) {
       console.warn("[contact] RESEND_API_KEY not set, logging only");
       console.log({ name, phone, email, message, referer });
-      // Diagnostic — never expose values, just whether keys are visible.
-      const visibleEnv = Object.keys(process.env)
-        .filter((k) => /resend|contact|vercel_env/i.test(k))
-        .sort();
-      return NextResponse.json({
-        ok: true,
-        dev: true,
-        debug: {
-          hasResendKey: Boolean(process.env.RESEND_API_KEY),
-          resendKeyLen: process.env.RESEND_API_KEY?.length ?? 0,
-          visibleEnv,
-          vercelEnv: process.env.VERCEL_ENV ?? null,
-        },
-      });
+      return NextResponse.json({ ok: true, dev: true });
     }
 
     const phoneTel = phone.replace(/[^0-9+]/g, "");
@@ -104,7 +91,13 @@ export async function POST(request: Request) {
 
     if (sendError) {
       console.error("[contact] resend rejected", { sendError, to, from });
-      return NextResponse.json({ error: "send failed" }, { status: 502 });
+      // Temporary: expose the Resend error message in the response so we
+      // can debug the test-mode/domain-verification issue without needing
+      // access to Vercel function logs. Remove once delivery is confirmed.
+      return NextResponse.json(
+        { error: "send failed", debug: { resend: sendError, to, from } },
+        { status: 502 },
+      );
     }
     console.log("[contact] sent", { id: data?.id, to });
 
