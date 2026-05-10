@@ -37,7 +37,20 @@ export async function POST(request: Request) {
     if (!apiKey) {
       console.warn("[contact] RESEND_API_KEY not set, logging only");
       console.log({ name, phone, email, message, referer });
-      return NextResponse.json({ ok: true, dev: true });
+      // Diagnostic — never expose values, just whether keys are visible.
+      const visibleEnv = Object.keys(process.env)
+        .filter((k) => /resend|contact|vercel_env/i.test(k))
+        .sort();
+      return NextResponse.json({
+        ok: true,
+        dev: true,
+        debug: {
+          hasResendKey: Boolean(process.env.RESEND_API_KEY),
+          resendKeyLen: process.env.RESEND_API_KEY?.length ?? 0,
+          visibleEnv,
+          vercelEnv: process.env.VERCEL_ENV ?? null,
+        },
+      });
     }
 
     const phoneTel = phone.replace(/[^0-9+]/g, "");
