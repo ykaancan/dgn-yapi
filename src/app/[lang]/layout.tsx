@@ -72,12 +72,40 @@ export default async function RootLayout({
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang);
 
+  const orgJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "@id": "https://dgnyapi.tr/#org",
+    name: "DGN Yapı",
+    alternateName: "DGN Doğan Yapı",
+    url: "https://dgnyapi.tr",
+    logo: "https://dgnyapi.tr/brand/dgn-logo.png",
+    image: "https://dgnyapi.tr/opengraph-image.png",
+    description: dict.meta.description,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Esenlik Mh. 9035 Sk. No: 2/A",
+      addressLocality: "Karabağlar",
+      addressRegion: "İzmir",
+      addressCountry: "TR",
+    },
+    telephone: "+90 232 430 23 46",
+    email: "bilgi@dgnyapi.tr",
+    openingHours: "Mo-Sa 09:00-19:00",
+    sameAs: ["https://instagram.com/dgnyapiinsaat"],
+    areaServed: { "@type": "City", name: "İzmir" },
+  };
+
   return (
     <html
       lang={lang}
       className={`${geist.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-bg text-fg">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        />
         <SiteHeader lang={lang} dict={dict} />
         <main className="flex-1">{children}</main>
         <SiteFooter lang={lang} dict={dict} />
