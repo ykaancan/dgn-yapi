@@ -131,17 +131,15 @@ export function SiteFooter({ lang, dict }: Props) {
             <Mail size={18} className="shrink-0 text-bronze" />
             {dict.footer.email}
           </a>
-          <div className="pt-2 flex gap-3">
-            <a
-              href="https://instagram.com/dgnyapiinsaat"
-              target="_blank"
-              rel="noreferrer"
-              className="p-2 border border-white/10 rounded-full hover:border-bronze hover:text-bronze transition-colors"
-              aria-label="Instagram"
-            >
-              <InstagramIcon size={16} />
-            </a>
-          </div>
+          <a
+            href="https://instagram.com/dgnyapiinsaat"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-3 text-fg/80 hover:text-bronze transition-colors"
+          >
+            <InstagramIcon size={18} />
+            dgnyapiinsaat
+          </a>
         </div>
       </div>
 
