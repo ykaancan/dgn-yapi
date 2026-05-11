@@ -50,7 +50,7 @@ export function ProjectFloorplans({ eyebrow, plans }: Props) {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -16 }}
             transition={{ duration: 0.4 }}
-            className="grid lg:grid-cols-12 gap-8"
+            className="grid grid-cols-1 lg:grid-cols-12 gap-8"
           >
             <div className="lg:col-span-8 relative aspect-[4/3] overflow-hidden rounded-xl bg-bg">
               {current.photos[imgIdx] && (
@@ -69,12 +69,12 @@ export function ProjectFloorplans({ eyebrow, plans }: Props) {
               <p className="text-fg-muted text-sm mb-4">
                 {imgIdx + 1} / {current.photos.length}
               </p>
-              <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-3 gap-2 max-h-[26rem] overflow-y-auto pr-1">
+              <div className="flex gap-2 overflow-x-auto snap-x snap-mandatory pb-2 -mx-4 px-4 lg:mx-0 lg:px-0 lg:pb-0 lg:grid lg:grid-cols-3 lg:max-h-[26rem] lg:overflow-y-auto lg:overflow-x-hidden lg:pr-1 lg:snap-none">
                 {current.photos.map((src, i) => (
                   <button
                     key={src}
                     onClick={() => setImgIdx(i)}
-                    className={`relative aspect-[4/3] overflow-hidden rounded bg-bg transition-all ${
+                    className={`relative aspect-[4/3] w-28 flex-shrink-0 snap-start overflow-hidden rounded bg-bg transition-all lg:w-auto ${
                       i === imgIdx
                         ? "ring-2 ring-bronze opacity-100"
                         : "opacity-70 hover:opacity-100"
@@ -84,7 +84,7 @@ export function ProjectFloorplans({ eyebrow, plans }: Props) {
                       src={src}
                       alt=""
                       fill
-                      sizes="(min-width: 1024px) 100px, (min-width: 768px) 110px, 100px"
+                      sizes="(min-width: 1024px) 100px, 112px"
                       className="object-cover"
                       loading="lazy"
                     />

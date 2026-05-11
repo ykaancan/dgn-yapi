@@ -119,19 +119,6 @@ export function ProjectsList({ lang, dict }: { lang: Locale; dict: Dictionary })
                       <p className="text-fg/70 text-sm leading-relaxed line-clamp-2">
                         {detail.tagline}
                       </p>
-
-                      {project.floorplans && project.floorplans.length > 0 && (
-                        <div className="flex flex-wrap gap-1.5 pt-2">
-                          {project.floorplans.map((plan) => (
-                            <span
-                              key={plan.type}
-                              className="text-[10px] tracking-wider px-2 py-1 rounded border border-bronze/30 text-bronze/90"
-                            >
-                              {plan.type}
-                            </span>
-                          ))}
-                        </div>
-                      )}
                     </div>
                   </Link>
                 </motion.article>

@@ -13,10 +13,10 @@ export function AboutStory({ dict }: { dict: Dictionary }) {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.8 }}
-          className="lg:col-span-5 relative aspect-[4/5] overflow-hidden rounded-2xl"
+          className="lg:col-span-5 relative aspect-[4/3] overflow-hidden rounded-2xl"
         >
           <Image
-            src="/projects/dogan-yasam-evleri/renders/render-1.jpg"
+            src="/projects/dogan-yasam-evleri/renders/exterior-day-1.jpg"
             alt=""
             fill
             sizes="(min-width: 1024px) 40vw, 100vw"
