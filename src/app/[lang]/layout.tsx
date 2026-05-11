@@ -3,6 +3,7 @@ import { Geist, Fraunces } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "../globals.css";
 import { getDictionary, hasLocale, locales } from "@/lib/i18n";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -111,6 +112,9 @@ export default async function RootLayout({
         <SiteFooter lang={lang} dict={dict} />
         <Analytics />
         <SpeedInsights />
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        )}
       </body>
     </html>
   );
