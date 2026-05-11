@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 
-function InstagramIcon({ size = 16 }: { size?: number }) {
+function InstagramIcon({ size = 16, className }: { size?: number; className?: string }) {
   return (
     <svg
       width={size}
@@ -14,6 +14,7 @@ function InstagramIcon({ size = 16 }: { size?: number }) {
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden
+      className={className}
     >
       <rect x="2" y="2" width="20" height="20" rx="5" />
       <circle cx="12" cy="12" r="4.2" />
@@ -137,7 +138,7 @@ export function SiteFooter({ lang, dict }: Props) {
             rel="noreferrer"
             className="flex items-center gap-3 text-fg/80 hover:text-bronze transition-colors"
           >
-            <InstagramIcon size={18} />
+            <InstagramIcon size={18} className="shrink-0 text-bronze" />
             dgnyapiinsaat
           </a>
         </div>
