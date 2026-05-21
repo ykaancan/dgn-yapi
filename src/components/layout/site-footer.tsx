@@ -80,18 +80,6 @@ export function SiteFooter({ lang, dict }: Props) {
             <p className="whitespace-pre-line">{dict.footer.address}</p>
           </div>
           <a
-            href={`tel:${dict.footer.phone.replace(/\s/g, "")}`}
-            className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"
-          >
-            <Phone size={18} className="shrink-0 text-bronze" />
-            <span className="flex flex-col">
-              <span>{dict.footer.phone}</span>
-              <span className="text-xs text-fg-muted">
-                {dict.footer.phoneLabel}
-              </span>
-            </span>
-          </a>
-          <a
             href={`tel:${dict.footer.companyPhone.replace(/\s/g, "")}`}
             className="flex gap-3 text-fg/80 hover:text-bronze transition-colors"
           >
